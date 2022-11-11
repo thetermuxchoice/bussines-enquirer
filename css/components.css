@@ -1,0 +1,268 @@
+.dropdown {
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.103);
+  padding: 10px;
+}
+
+.dropdown-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-title img {
+  margin-right: 20px;
+  transition: .3s transform;
+}
+
+.dropdown-content {
+  height: 0;
+  overflow: scroll;
+  transition: .5s height;
+  font-size: 1rem;
+}
+
+.open-dropdown {
+  height: 50px;
+}
+
+.rotate-arrow {
+  transform: rotate(180deg);
+}
+
+.link-blue {
+  color: rgb(39, 112, 221)
+}
+.news{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.main-article{
+  width: 40vw;
+}
+.articles-section-title {
+  margin-left: 15px;
+}
+
+.articles {
+  margin-top: 20px;
+}
+.articles .card {
+  background: transparent;
+  border: none;
+}
+.articles .card img {
+  border-radius: 20px;
+}
+.carousel-item img {
+  border-radius: 20px;
+}
+.article {
+  position: relative;
+  flex-basis: 300px;
+}
+
+.article-img img {
+  width: 100%;
+  filter: grayscale(30%);
+}
+
+.article-category, .article-title {
+  position: absolute;
+}
+
+.article-category {
+  top: 5%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.article-category h5 {
+  background-color: rgba(19, 80, 194, 0.596);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.article-category h5:not(:first-child) {
+  margin-top: -5px;
+}
+
+.article-title {
+  bottom: 0;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+@media (max-width: 950px) {
+  .articles-title {
+    text-align: center;
+  }
+
+  .article-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 350px){
+  .article {
+    flex-basis: 250px;
+    height: 300px;
+  }
+
+  .article-title {
+    background-color: rgba(255, 255, 255, 0.932);
+    color: rgb(51, 50, 50);
+  }
+}
+
+.bussines-info {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 550px) {
+  .bussines-info {
+    grid-template-columns: 1fr 1fr;
+  }
+  .info-item {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 370px) {
+  .bussines-info {
+    grid-template-columns: 1fr 1fr;
+  }
+  .info-item h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .paragraph-xlarge {
+    font-size: 15px !important;
+  }
+}
+
+.be-media-paragraph {
+  margin-top: 20px; 
+  font-size: 17px;
+}
+
+.job-row-two {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(27, 27, 27);
+}
+
+.job-row-two input {
+  margin-right: 10px;
+}
+
+.job {
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+.job-mode {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.form-group {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.job-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.job-image {
+  width: 100px;
+}
+
+.job-info {
+  display: flex;
+}
+.job-info-empresa {
+  margin-left: 20px;
+}
+
+.job-info-right {
+  display: flex;
+  align-items: center;
+}
+
+.job-info-right .job-location {
+  margin-right: 100px;
+}
+
+.job-time-work, .job-empresa {
+  color: rgb(0, 174, 255);
+}
+
+@media (max-width: 730px){
+  .job-info-right {
+    flex-direction: column;
+    text-align: center;
+  }
+  .job-info-right .job-location {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 590px){
+  .job, .job-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .job-info .job-image {
+    object-fit: contain;
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .job-info-empresa {
+    margin-left: 0;
+  }
+}
+.qlqwa {
+  display: flex !important;
+}
+.editions-card-2 {
+  margin: 10px;
+}
+.editions-card-2 img {
+  border-radius: 20px;
+}
+.be-media-dropdown .dropdown {
+  border-radius: 50px;
+  padding: 10px 0 5px 25px;
+}
+.titulo {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 85px;
+}

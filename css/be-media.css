@@ -1,0 +1,37 @@
+.be-media-contact {
+  width: 50%;
+  margin: 100px auto;
+  font-size: 1rem;
+}
+
+.be-media-contact form {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+
+.be-media-contact-title {
+  text-align: center;
+}
+
+.be-media-contact button {
+  background-color: rgb(41, 108, 235);
+  padding: 10px;
+  display: inline-block;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 20px 0;
+  float: right;
+}
+
+@media(max-width: 590px){
+  .be-media-contact {
+    width: 70%;
+  }
+}

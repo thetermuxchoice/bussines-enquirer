@@ -1,0 +1,15 @@
+.articles-container {
+  margin-top: -200px;;
+}
+
+@media(max-width: 700px){
+  .articles-container {
+    margin-top: -1700px;
+  }
+}
+
+@media (max-width: 476px){
+  .articles-container {
+    margin-top: -1000px;
+  }
+}

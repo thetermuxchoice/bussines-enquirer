@@ -1,0 +1,9 @@
+.section-home-hero {
+  padding: 0;
+}
+
+@media (max-width: 479px) {
+  .hero-wrap.is--home {
+    padding-bottom: 0rem;
+  }
+}
