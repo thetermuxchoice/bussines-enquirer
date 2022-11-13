@@ -1,16 +1,17 @@
 .be-media-contact {
   width: 50%;
-  margin: 100px auto;
   font-size: 1rem;
+  margin: 0 auto;
 }
 
 .be-media-contact form {
-  margin: 50px 0;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
   justify-content: center;
   padding: 0 50px;
+  background-color: green !important;
 }
 
 

@@ -49,12 +49,11 @@
   <link href="css/main.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="css/components.css">
   <link href="css/modules/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
   <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  <script type="text/javascript">
+    <script type="text/javascript">
     !(function (o, c) {
       var n = c.documentElement,
         t = " w-mod-";
@@ -2326,7 +2325,7 @@
             <div class="bg-dark-static"></div>
           </div>
         </div>
-        <div class="content-wrap">
+        <div class="content-wrap"  style="background-color:#252525 !important">
           <div class="overflow-hidden">
             <div class="padding-top">
               <div class="padding-horizontal">
@@ -2723,24 +2722,46 @@
     <div id="footer-freeze-wrap" class="footer-freeze-wrap">
       <div class="footer-freeze"></div>
     </div>
-    <div data-w-id="a3f053e1-60e5-e643-c30a-216c0ff6f3bf" class="footer-show-link"></div>
-    <a aria-hidden="true" href="#" class="show-footer-focusarea">Show footer</a><a aria-hidden="true" href="#"
-      class="footer-focus-reset" tabindex="-1">Footer Focus Reset</a>
-      <footer
+    <div
+      data-w-id="a3f053e1-60e5-e643-c30a-216c0ff6f3bf"
+      class="footer-show-link"
+    ></div>
+    <a aria-hidden="true" href="#" class="show-footer-focusarea"
+      >Show footer</a
+    ><a aria-hidden="true" href="#" class="footer-focus-reset" tabindex="-1"
+      >Footer Focus Reset</a
+    >
+    <footer
       class="footer"
       style="
         transform: translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg)
           rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
         transform-style: preserve-3d;
+        background-color: rgba(0, 0, 0, 0);
+        transform: translateY(0);
       "
     >
       <div class="background-wrap is--footer">
-        <div class="oval-wrapper is--footer" style="">
+        <div
+          class="oval-wrapper is--footer"
+          style="
+            transform: translate3d(0px, 0em, 0px) scale3d(1, 1, 1)
+              rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+          "
+        >
           <div class="oval-neg-margin">
             <div class="oval-dark-footer"></div>
           </div>
         </div>
-        <div class="bg-wrapper is--footer" style="">
+        <div
+          class="bg-wrapper is--footer"
+          style="
+            transform: translate3d(0px, 0em, 0px) scale3d(1, 1, 1)
+              rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+            transform-style: preserve-3d;
+          "
+        >
           <div class="bg-dark-footer"></div>
         </div>
         <div class="bg-static is--footer">
@@ -2759,7 +2780,7 @@
               class="top-circle-text"
               style="
                 transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                  rotateX(0deg) rotateY(0deg) rotateZ(-322.132deg)
+                  rotateX(0deg) rotateY(0deg) rotateZ(-3.9132deg)
                   skew(0deg, 0deg);
                 transform-style: preserve-3d;
                 will-change: transform;
@@ -2802,13 +2823,14 @@
               </p>
             </div>
             <div class="footer-links">
-              <h1>Explore</h1>
+              <h1>Explore
+              </h1>
               <div class="footer-links-link">
-                <a href="">About US</a>
-                <a href="">Contact US</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Cookies Policy</a>
-                <a href="">Ethics Policy</a>
+                <a href="index.html">Home</a>
+                <a href="articles.html">Articles</a>
+                <a href="be-media.html">Be Media</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
               </div>
             </div>
             <div class="footer-contact">
@@ -2817,7 +2839,7 @@
               <p>Phone: (+44)2071 268177</p>
             </div>
             <div class="footer-login">
-              <form action="" method="post" style="font-size: 1rem !important;">
+              <form action="" method="post">
                 <input type="text" class="text-input w-input" maxlength="256" name="" placeholder="Username Or Email..." id="">
                 <input type="password" class="text-input w-input" maxlength="256" name="" placeholder="Password..." id="">
                 <button>Login</button>
@@ -2825,6 +2847,50 @@
                 <p>Forgot Password?<a href="#">Click me</a></p>
               </form>
             </div>
+            <style>
+              .footer-info {
+                width: 100%;
+                height: 50%;
+                padding: 0 20px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                justify-items: center;
+              }
+              .footer-desc,
+              .footer-contact,
+              .footer-links,
+              .footer-login {
+                padding: 10px;
+              }
+              .footer-info h1 {
+                font-size: 1.8rem;
+                margin-bottom: 20px;
+              }
+              .footer-links a {
+                margin-bottom: 10px;
+              }
+              .footer-info p,
+              .footer-info a {
+                font-size: 20px;
+              }
+              .footer-links-link {
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+              }
+              @media (max-width: 950px) {
+                .footer-info {
+                  grid-template-columns: 1fr 1fr;
+                  gap: 20px;
+                }
+              }
+              @media (max-width: 950px) {
+                .footer-info {
+                  grid-template-columns: 1fr;
+                  text-align: center;
+                }
+              }
+            </style>
           </div>
         </div>
         <div class="footer-bottom">
@@ -2880,11 +2946,6 @@
     crossorigin="anonymous"></script>
   <script src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/js/reformdigital.b14884ce6.js"
     type="text/javascript"></script>
-  <!--[if lte IE 9
-      ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><!
-    [endif]-->
-  <!-- Reform Digital Codesandbox 
-<script type="fs-cc" fs-cc-categories="essential" async src="https://2v71y.csb.app/reformdigital.js"></script>-->
 
   <script type="text/javascript">
     $(document).ready(function () {
