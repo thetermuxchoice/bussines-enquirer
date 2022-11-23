@@ -1,0 +1,15 @@
+.first{
+    position: absolute;
+    top: -10%;
+    left: 0;
+}
+.second{
+    position: absolute;
+    top: 25%;
+    right: -8%;
+}
+.third{
+    position: absolute;
+    left: 0;
+    bottom: 30%;
+}
