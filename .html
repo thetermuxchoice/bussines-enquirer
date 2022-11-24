@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        #articles-conteiner {
+            position: relative;
+            margin: auto;
+            height: 350px;
+            display: grid;
+            grid-template-areas:
+                'bar bar bar'
+                'option cont cont';
+
+            grid-template-rows: minmax(40px, 60px) 1fr;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
+        .top-bar {
+            max-height: 60px;
+            grid-area: bar;
+            display: flex;
+            align-items: center;
+            padding: 0 15%;
+            justify-content: space-evenly;
+        }
+
+        .filter {
+            display: inline-flex;
+            background-color: gray;
+            color: white;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 0 5px;
+            height: 30px;
+        }
+
+        .filter:hover {
+            background-color: rgb(58, 58, 58);
+        }
+
+        .filter h5 {
+            margin: auto;
+        }
+
+
+        .option-bar {
+            grid-area: option;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .option-item {
+            margin: 0 10px;
+        }
+
+        .text-item {
+            color: white;
+            font-size: 3.5em;
+            margin: auto;
+            text-align: center;
+        }
+
+        .input-item {
+            border-radius: 8px;
+            border: none;
+            height: 30px;
+        }
+
+        .input-item img {
+            height: 60%;
+        }
+
+        .option-footer-bar {
+            margin: 0 10px;
+        }
+
+        .option-footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 25px;
+        }
+
+        .filter {
+            height: 30px;
+            width: 60px;
+            background-color: rgb(44, 44, 44);
+            border-radius: 10px;
+        }
+
+
+        .content-slider {
+            grid-area: cont;
+            color: white;
+        }
+
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+            padding: 15px 0;
+        }
+
+        .swiper-wrapper {
+            left: -32%;
+        }
+
+        .swiper-slide-active {
+            background-color: black !important;
+            width: 250px !important;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide-active img {
+            display: block;
+            top: 35%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+
+        .swiper-slide-active .card-banner {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(77, 77, 77);
+            position: absolute;
+            padding: 5px 10px;
+            padding-bottom: 30px;
+            top: 0;
+            border-radius: 20px 20px 0 0;
+            align-items: flex-start;
+        }
+
+        .swiper-slide-active .card-banner::before {
+            position: absolute;
+            background-color: rgb(214, 146, 36);
+            clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+            height: 30px;
+            width: 50%;
+            content: "Sports-Soccer";
+            text-align: center;
+            bottom: -30%;
+            left: 0;
+        }
+
+        .swiper-slide-active .card-banner::after {
+            position: absolute;
+            background-color: rgb(214, 146, 36);
+            clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
+            height: 30px;
+            width: 50%;
+            content: "";
+            text-align: right;
+            bottom: 0;
+            right: 0;
+        }
+
+        .card-banner {
+            display: none;
+        }
+
+        .card-banner-date {
+            margin-left: 10px;
+        }
+
+        .card-banner-title {
+            font-size: bold;
+            text-align: left;
+        }
+
+        .card-banner-date-day {
+            font-size: 2em;
+        }
+
+        .card-banner-date-mouth {
+            font-size: 0.5em;
+        }
+
+        .card-footer {
+            position: absolute;
+            background-color: rgb(214, 146, 36);
+            height: 50px;
+            width: 100px;
+            left: -15%;
+            bottom: 9%;
+            transform: rotate(-90deg);
+            clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+            border-radius: 20px 0 0 0;
+        }
+
+        .swiper-slide-active .card-footer {
+            display: none;
+        }
+
+        .card-footer-category {
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="articles-conteiner">
+        <div class="top-bar">
+            <div class="filter">
+                <h5>All</h5>
+            </div>
+            <div class="filter">
+                <h5>Executives</h5>
+            </div>
+            <div class="filter">
+                <h5>Investing</h5>
+            </div>
+            <div class="filter">
+                <h5>Lifestyle</h5>
+            </div>
+            <div class="filter">
+                <h5>News</h5>
+            </div>
+        </div>
+        <div class="option-bar">
+            <div class="option-item">
+                <h1 class="text-item">Recent</h1>
+                <h1 class="text-item">Articles</h1>
+            </div>
+            <div class="option-footer-bar">
+                <div class="option-footer">
+                    <input class="input-item"></input>
+                    <button class="input-item">
+                        <img src="https://img.icons8.com/emoji/48/null/magnifying-glass-tilted-left-emoji.png" alt=""
+                            srcset="">
+                    </button>
+                </div>
+                <div class="option-footer">
+                    <div class="filter">
+                        <h5>Name</h5>
+                    </div>
+                    <div class="filter">
+                        <h5>Date</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-slider">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                        <div class="card-banner">
+                            <div class="card-banner-title">Lionel Messi launches investment firm targeting sports</div>
+                            <div class="card-banner-date">
+                                <div class="card-banner-date-day">18</div>
+                                <div class="card-banner-date-mouth">Noviembre</div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <h3 class="card-footer-category">Events</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                        <div class="card-banner">
+                            <div class="card-banner-title">Lionel Messi launches investment firm targeting sports</div>
+                            <div class="card-banner-date">
+                                <div class="card-banner-date-day">18</div>
+                                <div class="card-banner-date-mouth">Noviembre</div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <h3 class="card-footer-category">Events</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                        <div class="card-banner">
+                            <div class="card-banner-title">Lionel Messi launches investment firm targeting sports</div>
+                            <div class="card-banner-date">
+                                <div class="card-banner-date-day">18</div>
+                                <div class="card-banner-date-mouth">Noviembre</div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <h3 class="card-footer-category">Events</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                centeredSlides: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+</body>
+
+</html>
