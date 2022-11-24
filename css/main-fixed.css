@@ -1,6 +1,6 @@
 .first{
     position: absolute;
-    top: -10%;
+    top: -25%;
     left: 0;
 }
 .second{
@@ -11,5 +11,5 @@
 .third{
     position: absolute;
     left: 0;
-    bottom: 30%;
+    bottom: 2%;
 }

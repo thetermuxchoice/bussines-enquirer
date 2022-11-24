@@ -199,14 +199,14 @@
 
 .card-footer {
     position: absolute;
-    background-color: rgb(214, 146, 36);
+    background-color: white !important;
     height: 50px;
     width: 100px;
-    left: -15%;
-    bottom: 9%;
+    left: -9%;
+    bottom: 4%;
     transform: rotate(-90deg);
     clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
-    border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0 !important;
 }
 
 .swiper-slide-active .card-footer {

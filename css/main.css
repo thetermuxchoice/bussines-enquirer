@@ -17306,7 +17306,7 @@ strong {
 
 .bussines-lifestyle {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   margin-top: 100px;
   padding: 0 20px;
 }
