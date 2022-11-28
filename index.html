@@ -49,18 +49,11 @@
   <link href="css/main.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="css/components.css">
   <link href="css/modules/aos.css" rel="stylesheet">
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./css/modules/section-branding.css">
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-    crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/main-fixed.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
   <!-- CSS only -->
-  <script type="text/javascript">
+    <script type="text/javascript">
     !(function (o, c) {
       var n = c.documentElement,
         t = " w-mod-";
@@ -1708,8 +1701,11 @@
                                   rotateZ(0deg) skew(0deg, 0deg);
                                 transform-style: preserve-3d;
                               "></div>
-                          <div class="small-circle-text-wrap" style="will-change: opacity; opacity: 1; padding: 0 !important;">
-                            <img src="https://busenq.com/wp-content/uploads/2021/05/BusEnq-web-logo-white-V-SMALL.png" alt="" srcset="" style="margin:auto; height: 100px;">
+                          <div class="small-circle-text-wrap" style="will-change: opacity; opacity: 1">
+                            <div class="heading-small is--indent" style="margin-left: -30px">
+                              BUSINESS
+                            </div>
+                            <div class="heading-small is--blue">enquirer</div>
                           </div>
                         </div>
                         <div class="large-circle-dark" style="
@@ -1781,13 +1777,13 @@
             <div class="padding-top">
               <div class="padding-horizontal">
                 <div class="container-medium">
-                  <div data-w-id="9ebb2868-b895-c285-e3f6-ea4440e9ee3b" class="home-social-flex" style="padding-bottom: 5em !important">
-                    <div class="image-wrap is-home-social first pop" style="
+                  <div data-w-id="9ebb2868-b895-c285-e3f6-ea4440e9ee3b" class="home-social-flex">
+                    <div class="image-wrap is-home-social-1" style="
                           will-change: transform;
                           transform: translate3d(0px, 40.9644%, 0px)
-                            scale3d(1, 1, 1) skew(0deg, 0deg);
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(6.8274deg) skew(0deg, 0deg);
                           transform-style: preserve-3d;
-                          ;
                         ">
                       <div class="image-bounds-rounded is-home-social-1" data-aos="flip-left"
                         data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -1796,10 +1792,11 @@
                           loading="lazy" alt="" class="image-cover" />
                       </div>
                     </div>
-                    <div class="image-wrap is-home-social second pop" style="
+                    <div class="image-wrap is-home-social-2" style="
                           will-change: transform;
                           transform: translate3d(0px, -57.7918%, 0px)
-                            scale3d(1, 1, 1) skew(0deg, 0deg);
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(-13.6548deg) skew(0deg, 0deg);
                           transform-style: preserve-3d;
                         ">
                       <div class="image-bounds-rounded is-home-social-2" data-aos="flip-right"
@@ -1809,10 +1806,11 @@
                           loading="lazy" alt="" class="image-cover" />
                       </div>
                     </div>
-                    <div class="image-wrap is-home-social third pop" style="
+                    <div class="image-wrap is-home-social-3" style="
                           will-change: transform;
                           transform: translate3d(0px, -35.7233%, 0px)
-                            scale3d(1, 1, 1) skew(0deg, 0deg);
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(6.8274deg) skew(0deg, 0deg);
                           transform-style: preserve-3d;
                         ">
                       <div class="image-bounds-rounded is-home-social-3" data-aos="flip-left"
@@ -1933,95 +1931,145 @@
           </div>
         </div>
       </section>
-      <section data-w-id="adcd804f-a0a2-1efb-6caf-27d1ef15a3e2" class="section-branding" style="margin-top:20px;">
-        <div id="articles-conteiner">
-          <div class="top-bar">
-              <div class="filter">
-                  <h5>All</h5>
-              </div>
-              <div class="filter">
-                  <h5>Executives</h5>
-              </div>
-              <div class="filter">
-                  <h5>Investing</h5>
-              </div>
-              <div class="filter">
-                  <h5>Lifestyle</h5>
-              </div>
-              <div class="filter">
-                  <h5>News</h5>
-              </div>
+      <section data-w-id="adcd804f-a0a2-1efb-6caf-27d1ef15a3e2" class="section-branding">
+        <div class="background-wrap">
+          <div class="bg-scroll-area"></div>
+          <div class="oval-wrapper" style="
+                will-change: transform;
+                transform: translate3d(0px, -19.9012em, 0px)
+                  scale3d(1, 0.55775, 1) rotateX(0deg) rotateY(0deg)
+                  rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+              ">
+            <div class="oval-neg-margin">
+              <div class="oval-dark"></div>
+            </div>
           </div>
-          <div class="option-bar">
-              <div class="option-item">
-                  <h1 class="text-item">Recent</h1>
-                  <h1 class="text-item">Articles</h1>
-              </div>
-              <div class="option-footer-bar">
-                  <div class="option-footer">
-                      <input class="input-item"></input>
-                      <button class="input-item" style="width:60px;">
-                          <img src="https://img.icons8.com/emoji/48/null/magnifying-glass-tilted-left-emoji.png" alt=""
-                              srcset="">
-                      </button>
-                  </div>
-                  <div class="option-footer">
-                      <div class="filter">
-                          <h5>Name</h5>
-                      </div>
-                      <div class="filter">
-                          <h5>Date</h5>
-                      </div>
-                  </div>
-              </div>
+          <div class="bg-wrapper" style="
+                will-change: transform;
+                transform: translate3d(0px, -19.9012em, 0px) scale3d(1, 1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+              ">
+            <div class="bg-dark"></div>
+            <div class="bg-dark-static"></div>
           </div>
-          <div class="content-slider">
-              <!-- Swiper -->
-              <div class="swiper mySwiper">
-                  <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                          <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
-                          <div class="card-banner">
-                              <div class="card-banner-title">Lionel Messi launches investment firm targeting sports</div>
-                              <div class="card-banner-date">
-                                  <div class="card-banner-date-day">18</div>
-                                  <div class="card-banner-date-mouth">Noviembre</div>
-                              </div>
-                          </div>
-                          <div class="card-footer">
-                              <h3 class="card-footer-category">Events</h3>
-                          </div>
+        </div>
+        <div class="content-wrap">
+          <div class="overflow-hidden">
+            <div class="padding-top">
+              <div class="padding-horizontal">
+                <div class="container-medium">
+                  <div data-w-id="bb3a92d0-793d-c8f0-b0b3-bb2f1d9b8260" class="home-branding-flex">
+                    <div class="dots-wrapper is-home-branding" style="
+                          will-change: transform;
+                          transform: translate3d(0px, 0em, 0px) scale3d(1, 1, 1)
+                            rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                            skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                        ">
+                      <div class="dots-small">
+                        <div class="dots-bounds">
+                          <img
+                            src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255a751d5572282c0c9d7_Dots.svg"
+                            loading="eager" alt="" class="image-cover" />
+                        </div>
                       </div>
-                      <div class="swiper-slide">
-                          <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
-                          <div class="card-banner">
-                              <div class="card-banner-title">Lionel Messi launches investment firm targeting sports</div>
-                              <div class="card-banner-date">
-                                  <div class="card-banner-date-day">18</div>
-                                  <div class="card-banner-date-mouth">Noviembre</div>
+                    </div>
+                    <div class="articles-section">
+                      <h1 class="articles-section-title" data-aos="zoom-in">Recent Articles</h1>
+                      <div class="news">
+
+                        <div class="main-article">
+                          <div id="article-carousel" class="carousel slide" data-bs-ride="false">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>First slide label</h5>
+                                  <p>Some representative placeholder content for the first slide.</p>
+                                </div>
                               </div>
-                          </div>
-                          <div class="card-footer">
-                              <h3 class="card-footer-category">Events</h3>
-                          </div>
-                      </div>
-                      <div class="swiper-slide">
-                          <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
-                          <div class="card-banner">
-                              <div class="card-banner-title">Lionel Messi launches investment firm targeting sports</div>
-                              <div class="card-banner-date">
-                                  <div class="card-banner-date-day">18</div>
-                                  <div class="card-banner-date-mouth">Noviembre</div>
+                              <div class="carousel-item">
+                                <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Second slide label</h5>
+                                  <p>Some representative placeholder content for the second slide.</p>
+                                </div>
                               </div>
+                              <div class="carousel-item">
+                                <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Third slide label</h5>
+                                  <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
                           </div>
-                          <div class="card-footer">
-                              <h3 class="card-footer-category">Events</h3>
+                        </div>
+
+                        <div class="articles">
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lionel Messi launches investment firm targeting sports and tech</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit am, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                </div>
+                              </div>
+                            </div>
                           </div>
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lionel Messi launches investment firm targeting sports and tech</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit am, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" class="img-fluid" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Lionel Messi launches investment firm targeting sports and tech</h5>
+                                  <p class="card-text">Lorem ipsum dolor sit am, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
                   </div>
+                </div>
               </div>
+            </div>
           </div>
-      </div>
+        </div>
       </section>
       <section class="section-home-featured">
         <div class="container">
@@ -2031,8 +2079,7 @@
                 <div class="mailing-list">
                   <div class="mailing-column-two" data-aos="zoom-out-up">
                     <h1 class="titulo">Mailing List</h1>
-                    <p>Join our mailing list to receive the latest issue of Business Enquirer directly to your inbox,
-                      for
+                    <p>Join our mailing list to receive the latest issue of Business Enquirer directly to your inbox, for
                       free.</p>
                     <form action="" method="post">
                       <input type="text" placeholder="E-mail" class="form-control">
@@ -2278,7 +2325,7 @@
             <div class="bg-dark-static"></div>
           </div>
         </div>
-        <div class="content-wrap" style="background-color:#252525 !important">
+        <div class="content-wrap"  style="background-color:#252525 !important">
           <div class="overflow-hidden">
             <div class="padding-top">
               <div class="padding-horizontal">
@@ -2409,17 +2456,12 @@
                         <div class="col-md-6">
                           <div class="lifestyle-column2" data-aos="zoom-out-in">
                             <h1 class="titulo">Business Lifestyle</h1>
-                            <p>As we all emerge from what we hope will be the end of the pandemic, we’re excited to get
-                              back
+                            <p>As we all emerge from what we hope will be the end of the pandemic, we’re excited to get back
                               to doing what we love. Whether you’re most looking forward to dining at your favourite
-                              restaurants, attending concerts and cultural events, or booking a dream vacation for you
-                              and
-                              your family, we’re here to reconnect you with the things that you love – and have missed –
-                              the
-                              most. Our business is built on connectivity, and our global network of business partners
-                              are
-                              ready to bring every wish, new and old, big and small, to fruition. Come lose your
-                              imagination
+                              restaurants, attending concerts and cultural events, or booking a dream vacation for you and
+                              your family, we’re here to reconnect you with the things that you love – and have missed – the
+                              most. Our business is built on connectivity, and our global network of business partners are
+                              ready to bring every wish, new and old, big and small, to fruition. Come lose your imagination
                               within our travel and lifestyle section.</p>
                             <p>Our new Business Lifestyle editions highlight the best executive travel and lifestyle
                               opportunities around the globe.</p>
@@ -2442,7 +2484,7 @@
               </div>
             </div>
           </div>
-          <div data-w-id="1cf7e94c-f12d-0fe3-62b0-5b1b99d284d4" class="testimonials-track" style="display: none !important;">
+          <div data-w-id="1cf7e94c-f12d-0fe3-62b0-5b1b99d284d4" class="testimonials-track">
             <div class="job-portal">
               <div class="job-row-one">
                 <div class="job-column1">
@@ -2680,31 +2722,46 @@
     <div id="footer-freeze-wrap" class="footer-freeze-wrap">
       <div class="footer-freeze"></div>
     </div>
-    <div data-w-id="a3f053e1-60e5-e643-c30a-216c0ff6f3bf" class="footer-show-link"></div>
-    <a aria-hidden="true" href="#" class="show-footer-focusarea">Show footer</a><a aria-hidden="true" href="#"
-      class="footer-focus-reset" tabindex="-1">Footer Focus Reset</a>
-    <footer class="footer" style="
+    <div
+      data-w-id="a3f053e1-60e5-e643-c30a-216c0ff6f3bf"
+      class="footer-show-link"
+    ></div>
+    <a aria-hidden="true" href="#" class="show-footer-focusarea"
+      >Show footer</a
+    ><a aria-hidden="true" href="#" class="footer-focus-reset" tabindex="-1"
+      >Footer Focus Reset</a
+    >
+    <footer
+      class="footer"
+      style="
         transform: translate3d(0px, 100%, 0px) scale3d(1, 1, 1) rotateX(0deg)
           rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
         transform-style: preserve-3d;
         background-color: rgba(0, 0, 0, 0);
         transform: translateY(0);
-      ">
+      "
+    >
       <div class="background-wrap is--footer">
-        <div class="oval-wrapper is--footer" style="
+        <div
+          class="oval-wrapper is--footer"
+          style="
             transform: translate3d(0px, 0em, 0px) scale3d(1, 1, 1)
               rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
             transform-style: preserve-3d;
-          ">
+          "
+        >
           <div class="oval-neg-margin">
             <div class="oval-dark-footer"></div>
           </div>
         </div>
-        <div class="bg-wrapper is--footer" style="
+        <div
+          class="bg-wrapper is--footer"
+          style="
             transform: translate3d(0px, 0em, 0px) scale3d(1, 1, 1)
               rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
             transform-style: preserve-3d;
-          ">
+          "
+        >
           <div class="bg-dark-footer"></div>
         </div>
         <div class="bg-static is--footer">
@@ -2716,32 +2773,47 @@
           <div class="up-wrap" style="opacity: 0">
             <img
               src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/62346d9534a4197459376d40_back-to-top.svg"
-              loading="lazy" data-w-id="775626b1-8010-eb24-64ae-00e99948e0be" aria-hidden="true" alt=""
-              class="top-circle-text" style="
+              loading="lazy"
+              data-w-id="775626b1-8010-eb24-64ae-00e99948e0be"
+              aria-hidden="true"
+              alt=""
+              class="top-circle-text"
+              style="
                 transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
                   rotateX(0deg) rotateY(0deg) rotateZ(-3.9132deg)
                   skew(0deg, 0deg);
                 transform-style: preserve-3d;
                 will-change: transform;
-              " />
+              "
+            />
           </div>
-          <a data-w-id="775626b1-8010-eb24-64ae-00e99948e0bf" href="#" class="up-link clickable-on w-inline-block"
+          <a
+            data-w-id="775626b1-8010-eb24-64ae-00e99948e0bf"
+            href="#"
+            class="up-link clickable-on w-inline-block"
             style="
               transform: translate3d(0px, 100%, 0px) scale3d(0, 0, 1)
                 rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
               transform-style: preserve-3d;
-            ">
-            <div class="link-alt-text">Back to top</div>
+            "
+            ><div class="link-alt-text">Back to top</div>
             <img
               src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/623bbd20fa84cb02c0846356_Up%20Arrow%20Thicker.svg"
-              loading="lazy" aria-hidden="true" alt="" class="up-arrow top" /><img
+              loading="lazy"
+              aria-hidden="true"
+              alt=""
+              class="up-arrow top" /><img
               src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/623bbd20fa84cb02c0846356_Up%20Arrow%20Thicker.svg"
-              loading="lazy" aria-hidden="true" alt="" class="up-arrow bottom" style="
+              loading="lazy"
+              aria-hidden="true"
+              alt=""
+              class="up-arrow bottom"
+              style="
                 transform: translate3d(0px, 200%, 0px) scale3d(1, 1, 1)
                   rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
                 transform-style: preserve-3d;
-              " />
-          </a>
+              "
+          /></a>
           <div class="footer-info">
             <div class="footer-desc">
               <h1>Business Enquirer</h1>
@@ -2768,10 +2840,8 @@
             </div>
             <div class="footer-login">
               <form action="" method="post">
-                <input type="text" class="text-input w-input" maxlength="256" name="" placeholder="Username Or Email..."
-                  id="">
-                <input type="password" class="text-input w-input" maxlength="256" name="" placeholder="Password..."
-                  id="">
+                <input type="text" class="text-input w-input" maxlength="256" name="" placeholder="Username Or Email..." id="">
+                <input type="password" class="text-input w-input" maxlength="256" name="" placeholder="Password..." id="">
                 <button>Login</button>
                 <a href="">Register</a>
                 <p>Forgot Password?<a href="#">Click me</a></p>
@@ -2786,41 +2856,34 @@
                 grid-template-columns: 1fr 1fr 1fr 1fr;
                 justify-items: center;
               }
-
               .footer-desc,
               .footer-contact,
               .footer-links,
               .footer-login {
                 padding: 10px;
               }
-
               .footer-info h1 {
                 font-size: 1.8rem;
                 margin-bottom: 20px;
               }
-
               .footer-links a {
                 margin-bottom: 10px;
               }
-
               .footer-info p,
               .footer-info a {
                 font-size: 20px;
               }
-
               .footer-links-link {
                 display: flex;
                 flex-direction: column;
                 gap: 7px;
               }
-
               @media (max-width: 950px) {
                 .footer-info {
                   grid-template-columns: 1fr 1fr;
                   gap: 20px;
                 }
               }
-
               @media (max-width: 950px) {
                 .footer-info {
                   grid-template-columns: 1fr;
@@ -2840,21 +2903,35 @@
                 </div>
                 <div class="footer-items">
                   <div class="footer-item copyright">
-                    <div id="w-node-_775626b1-8010-eb24-64ae-00e99948e10d-9948e0b2">
+                    <div
+                      id="w-node-_775626b1-8010-eb24-64ae-00e99948e10d-9948e0b2"
+                    >
                       © <span class="year">2022</span> All Rights Reserved
                     </div>
                   </div>
                   <div class="footer-item">
-                    <a id="w-node-_775626b1-8010-eb24-64ae-00e99948e110-9948e0b2" href="/privacy-policy"
-                      class="footer-link is--light">Privacy</a>
+                    <a
+                      id="w-node-_775626b1-8010-eb24-64ae-00e99948e110-9948e0b2"
+                      href="/privacy-policy"
+                      class="footer-link is--light"
+                      >Privacy</a
+                    >
                   </div>
                   <div class="footer-item">
-                    <a id="w-node-_775626b1-8010-eb24-64ae-00e99948e113-9948e0b2" href="/terms-of-use"
-                      class="footer-link is--light">Terms</a>
+                    <a
+                      id="w-node-_775626b1-8010-eb24-64ae-00e99948e113-9948e0b2"
+                      href="/terms-of-use"
+                      class="footer-link is--light"
+                      >Terms</a
+                    >
                   </div>
                   <div class="footer-item">
-                    <a id="w-node-_42ec1fbd-5e3e-98a1-e8f4-af6e2f9f42ea-9948e0b2" href="/cookies"
-                      class="footer-link is--light">Cookies</a>
+                    <a
+                      id="w-node-_42ec1fbd-5e3e-98a1-e8f4-af6e2f9f42ea-9948e0b2"
+                      href="/cookies"
+                      class="footer-link is--light"
+                      >Cookies</a
+                    >
                   </div>
                 </div>
               </div>
@@ -3322,20 +3399,6 @@
   <script src="js/modules/aos.js"></script>
   <script>
     AOS.init();
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-      var swiper = new Swiper(".mySwiper", {
-          slidesPerView: 3,
-          spaceBetween: 30,
-          centeredSlides: true,
-          pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
-          },
-      });
   </script>
 </body>
 
