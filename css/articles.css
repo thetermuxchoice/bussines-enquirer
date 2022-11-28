@@ -1,12 +1,9 @@
 .articles-container {
   display: flex;
-  transform: translateY(-300px);
+  margin-top: 200px;
   justify-content: center;
   flex-wrap: wrap-reverse;
-  z-index: 200;
-  position: relative;
 }
-
 .article {
   flex-basis: 400px;
   color: #fff;
@@ -98,15 +95,18 @@
 }
 
 @media (max-width: 850px) {
+  .articles-container {
+    margin-top: -500px !important;
+  }
   .articles-column-one h1 {
     font-size: 25px;
     text-align: center;
   }
 }
 
-@media (max-width: 700px) {
+@media(max-width: 640px){
   .articles-container {
-    margin-top: -200px !important;
+    margin-top: -1700px !important;
   }
   .articles-column-one {
     margin-bottom: 900px;
@@ -125,12 +125,6 @@
   }
   .articles-column-one input  {
     display: none;
-  }
-}
-
-@media (max-width: 490px) {
-  .articles-container {
-    transform: translateY(1000px);
   }
 }
 

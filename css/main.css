@@ -2326,8 +2326,7 @@ body {
   color           : #252525;
   font-size       : 1vw;
   line-height     : 1;
-  font-weight     : 400;
-  overflow-x: hidden !important;
+  font-weight     : 400
 }
 
 ul {
@@ -17526,9 +17525,6 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 7px;
-}
-.footer-links a:hover {
-  color: #0082f3;
 }
 @media (max-width: 950px) {
   .footer-info {
