@@ -2,6 +2,7 @@
   --gold-color: #e0bb4c;
   --white:#fff;
   --dark:#000;
+  --font-dark: #454545;
 }
 .bg-dark{
   background-color: var(--dark )!important ;
@@ -7957,7 +7958,8 @@ strong {
   -ms-flex-align     : center;
   align-items        : center;
   -webkit-transition : color .2s, background-color .2s;
-  transition         : color .2s, background-color .2s
+  transition         : color .2s, background-color .2s;
+  color:var(--font-dark) !important;
 }
 
 .nav-link:hover {
