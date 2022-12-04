@@ -2365,7 +2365,7 @@ strong {
   position    : relative;
   z-index     : 1;
   width       : 100%;
-  max-width   : 76.19em;
+  max-width   : 95em;
   margin-right: auto;
   margin-left : auto
 }
@@ -3495,7 +3495,7 @@ strong {
   border        : 3px solid #fff;
   border-radius : .6em;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .nav-logo-link[data-wf-focus-visible] {
@@ -3506,7 +3506,7 @@ strong {
   border        : 3px solid #fff;
   border-radius : .6em;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .nav-reform-wrap {
@@ -4811,13 +4811,13 @@ strong {
 .featured-collection-link:focus-visible {
   border        : 3px solid var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .featured-collection-link[data-wf-focus-visible] {
   border        : 3px solid var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .featured-collection-list {
@@ -4998,7 +4998,7 @@ strong {
   border        : 3px solid var(--dark);;
   border-radius : .6em;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .more-projects-link[data-wf-focus-visible] {
@@ -5006,7 +5006,7 @@ strong {
   border        : 3px solid var(--dark);;
   border-radius : .6em;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .plus-wrap {
@@ -5474,15 +5474,15 @@ strong {
 }
 
 .cta-link:focus-visible {
-  box-shadow    : 0 0 0 2px var(--white);, 0 0 0 5px var(--dark);;
+  box-shadow    : 0 0 0 2px var(--white), 0 0 0 5px var(--dark);;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .cta-link[data-wf-focus-visible] {
-  box-shadow    : 0 0 0 2px var(--white);, 0 0 0 5px var(--dark);;
+  box-shadow    : 0 0 0 2px var(--white), 0 0 0 5px var(--dark);
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .footer {
@@ -5636,13 +5636,13 @@ strong {
 .footer-link:focus-visible {
   border-color  : var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .footer-link[data-wf-focus-visible] {
   border-color  : var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .footer-link.w--current {
@@ -5730,7 +5730,7 @@ strong {
   border        : 3px solid var(--white);;
   border-radius : 1.2em;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .mega-link.is--next[data-wf-focus-visible] {
@@ -5739,7 +5739,7 @@ strong {
   border        : 3px solid var(--white);;
   border-radius : 1.2em;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .mega-link.is--menu:focus-visible {
@@ -5748,7 +5748,7 @@ strong {
   border        : 3px solid var(--white);;
   border-radius : 1.2em;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .mega-link.is--menu[data-wf-focus-visible] {
@@ -5757,7 +5757,7 @@ strong {
   border        : 3px solid var(--white);;
   border-radius : 1.2em;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .mega-letters-wrap {
@@ -5915,13 +5915,13 @@ strong {
 .up-link.clickable-on:focus-visible {
   border        : 3px solid var(--white);;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .up-link.clickable-on[data-wf-focus-visible] {
   border        : 3px solid var(--white);;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .up-link.clickable-on.is--contact {
@@ -6560,7 +6560,7 @@ strong {
   border        : 3px solid #fff;
   border-radius : .6em;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .nav-menu-link[data-wf-focus-visible] {
@@ -6571,7 +6571,7 @@ strong {
   border        : 3px solid #fff;
   border-radius : .6em;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .section-service-intro {
@@ -7665,13 +7665,13 @@ strong {
 .featured-link:focus-visible {
   border        : 3px solid var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .featured-link[data-wf-focus-visible] {
   border        : 3px solid var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .featured-work-list {
@@ -7970,14 +7970,14 @@ strong {
 .nav-link:focus-visible {
   background-color: var(--dark);;
   outline-offset  : 0px;
-  outline         : var(--white); 3px;
+  outline         : var(--white) 3px;
   color           : var(--white);
 }
 
 .nav-link[data-wf-focus-visible] {
   background-color: var(--dark);;
   outline-offset  : 0px;
-  outline         : var(--white); 3px;
+  outline         : var(--white) 3px;
   color           : var(--white);
 }
 
@@ -8242,14 +8242,14 @@ strong {
 .nav-footer-button:focus-visible {
   background-color: var(--dark);;
   outline-offset  : 0px;
-  outline         : var(--white); 3px;
+  outline         : var(--white) 3px;
   color           : var(--white);
 }
 
 .nav-footer-button[data-wf-focus-visible] {
   background-color: var(--dark);;
   outline-offset  : 0px;
-  outline         : var(--white); 3px;
+  outline         : var(--white) 3px;
   color           : var(--white);
 }
 
@@ -8955,13 +8955,13 @@ strong {
 .project-link:focus-visible {
   border        : 3px solid var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .project-link[data-wf-focus-visible] {
   border        : 3px solid var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .project-marquee-overflow {
@@ -9093,14 +9093,14 @@ strong {
   margin-top    : 1%;
   border        : 3px solid #fff;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .skip-link[data-wf-focus-visible] {
   margin-top    : 1%;
   border        : 3px solid #fff;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .arrow-wrap-portfolio {
@@ -10801,21 +10801,21 @@ strong {
 }
 
 .social-link:hover {
-  background-color: var(--dark);;
+  background-color: var(--dark);
   color           : var(--white);
 }
 
 .social-link:focus-visible {
-  background-color: var(--dark);;
+  background-color: var(--dark);
   outline-offset  : 0px;
-  outline         : var(--white); 3px;
+  outline         : var(--white) 3px;
   color           : var(--white);
 }
 
 .social-link[data-wf-focus-visible] {
-  background-color: var(--dark);;
+  background-color: var(--dark);
   outline-offset  : 0px;
-  outline         : var(--white); 3px;
+  outline         : var(--white) 3px;
   color           : var(--white);
 }
 
@@ -11022,7 +11022,7 @@ strong {
   border         : 2px solid var(--dark);;
   border-radius  : 100vw;
   outline-offset : 0px;
-  outline        : var(--dark); 3px;
+  outline        : var(--dark) 3px;
   text-decoration: none
 }
 
@@ -11033,7 +11033,7 @@ strong {
   border         : 2px solid var(--dark);;
   border-radius  : 100vw;
   outline-offset : 0px;
-  outline        : var(--dark); 3px;
+  outline        : var(--dark) 3px;
   text-decoration: none
 }
 
@@ -11194,13 +11194,13 @@ strong {
   right           : 0;
   bottom          : 0;
   z-index         : 1;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--white);), color-stop(13%, hsla(0, 0%, 85.5%, 0)), color-stop(87%, hsla(0, 0%, 85.5%, 0)), to(var(--white);));
-  background-image: linear-gradient(180deg, var(--white);, hsla(0, 0%, 85.5%, 0) 13%, hsla(0, 0%, 85.5%, 0) 87%, var(--white);)
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--white)), color-stop(13%, hsla(0, 0%, 85.5%, 0)), color-stop(87%, hsla(0, 0%, 85.5%, 0)), to(var(--white)));
+  background-image: linear-gradient(180deg, var(--white), hsla(0, 0%, 85.5%, 0) 13%, hsla(0, 0%, 85.5%, 0) 87%, var(--white))
 }
 
 .more-gradient.is--dark {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--dark);), color-stop(13%, rgba(37, 37, 37, 0)), color-stop(87%, rgba(37, 37, 37, 0)), to(var(--dark);));
-  background-image: linear-gradient(180deg, var(--dark);, rgba(37, 37, 37, 0) 13%, rgba(37, 37, 37, 0) 87%, var(--dark);)
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--dark)), color-stop(13%, rgba(37, 37, 37, 0)), color-stop(87%, rgba(37, 37, 37, 0)), to(var(--dark)));
+  background-image: linear-gradient(180deg, var(--dark), rgba(37, 37, 37, 0) 13%, rgba(37, 37, 37, 0) 87%, var(--dark))
 }
 
 .more-gradient.is--pure-white {
@@ -11824,13 +11824,13 @@ strong {
 .fs-cc-prefs_button:focus-visible {
   box-shadow    : 0 0 0 2px #edebeb, 0 0 0 5px var(--dark);;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .fs-cc-prefs_button[data-wf-focus-visible] {
   box-shadow    : 0 0 0 2px #edebeb, 0 0 0 5px var(--dark);;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .fs-cc-prefs_button.fs-cc-button-alt {
@@ -11885,8 +11885,8 @@ strong {
   border-radius   : 100%;
   background-color: #303030;
   outline-offset  : 0px;
-  outline         : var(--white); 3px;
-  color           : var(--white);;
+  outline         : var(--white) 3px;
+  color           : var(--white);
   font-size       : 20px;
   text-decoration : none;
   cursor          : pointer
@@ -11895,7 +11895,7 @@ strong {
 .fs-cc-prefs_close:focus {
   box-shadow    : 0 0 0 2px #000;
   outline-offset: 0px;
-  outline       : var(--white); 3px
+  outline       : var(--white) 3px
 }
 
 .fs-cc-banner_close {
@@ -11914,14 +11914,14 @@ strong {
   border-style  : solid;
   border-color  : var(--dark);;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .fs-cc-banner_close[data-wf-focus-visible] {
   border-style  : solid;
-  border-color  : var(--dark);;
+  border-color  : var(--dark);
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .fs-cc-banner_buttons-wrapper {
@@ -12030,7 +12030,7 @@ strong {
   border        : 2px solid #000;
   border-radius : 100vw;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .fs-cc-banner_text-link[data-wf-focus-visible] {
@@ -12039,7 +12039,7 @@ strong {
   border        : 2px solid #000;
   border-radius : 100vw;
   outline-offset: 0px;
-  outline       : var(--dark); 3px
+  outline       : var(--dark) 3px
 }
 
 .fs-cc-prefs_submit-hide {
@@ -12186,7 +12186,7 @@ strong {
   border-color  : var(--white);;
   box-shadow    : 0 0 0 3px var(--dark);;
   outline-offset: 0px;
-  outline       : var(--white); 3px;
+  outline       : var(--white) 3px;
   color         : var(--white);
 }
 
@@ -12194,7 +12194,7 @@ strong {
   border-color  : var(--white);;
   box-shadow    : 0 0 0 3px var(--dark);;
   outline-offset: 0px;
-  outline       : var(--white); 3px;
+  outline       : var(--white) 3px;
   color         : var(--white);
 }
 

@@ -1,0 +1,95 @@
+:root{
+    --shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.8);
+    --text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.maining-content{
+    max-width: 100vw !important;
+    height: 100vh;
+    margin: 0 !important;
+    background-color: var(--font-dark);
+    pointer-events: all;
+}
+.maining-content-main{
+    margin: 0;
+    margin-top: -10px !important;
+    padding-top: 150px !important;
+    padding-bottom: 200px !important;
+    height: 100vh;
+    display: flex !important;
+    justify-content: space-between;
+}
+.mailing-left-content {
+    margin: 0;
+    margin-top: 30px !important;
+}
+.mailing-left-content-main{
+
+    width: 130%;
+    border-radius: 0 2rem 2rem 0;
+}
+.mailing-left-content-footer{
+    margin-top: 130px !important;
+    text-align: center;
+}
+.mailing-left-content-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 110% !important;
+    color: white;
+}
+
+.mailing-left-content-main-banner{
+    position: absolute;
+    width: 68vw !important;
+    height: 35vh !important;
+    object-fit: cover;
+    border-radius: 0 6rem 6rem 0;
+    left: 0;
+    box-shadow: var(--shadow);
+}
+.mailing-left-content-item{
+    margin: 0 !important;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+    width: 70% !important;
+    color: white;
+    border-radius: 1rem !important;
+    text-shadow: var(--text-shadow);
+}
+.mailing-content-left-main-input{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-items: center;
+}
+.mailing-content-left-main-input-buttom
+{
+    position: relative;
+    top: 20px;
+    left: -50px;
+    width: 20px;
+    height: 20px;
+}
+.mailing-content-left-main-input-buttom img:hover
+{
+    filter: brightness(0.1);
+}
+
+.mailing-left-content-tittle{
+    text-align: left;
+    font-size: 3.5em;
+}
+
+.mailing-left-content-main-text{
+    text-align: left;
+}
+
+.mailing-right-content {
+}
+.mailing-right-content-item{
+    justify-content: center;
+}
+.mailing-right-content-img {
+    height: 150px;
+    box-shadow: var(--shadow);
+}
+
