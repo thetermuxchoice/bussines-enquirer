@@ -1,17 +1,22 @@
 .dropdown {
   margin-top: 10px;
-  background-color: rgba(255, 255, 255, 0.103);
+  background-color: #A1862B;
   padding: 10px;
 }
 
 .dropdown-title {
   display: flex;
   justify-content: space-between;
+  color: #fff;
 }
 
 .dropdown-title img {
   margin-right: 20px;
   transition: .3s transform;
+}
+
+.dropdown-title h4 {
+  font-weight: 700;
 }
 
 .dropdown-content {
