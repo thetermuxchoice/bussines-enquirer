@@ -205,6 +205,7 @@
         body {
           -ms-overflow-style: none;
           overflow: hidden;
+          overflow-x: hidden !important;
         }
 
         .nav-overflow::-webkit-scrollbar {
@@ -1450,41 +1451,37 @@
                           tabindex="0">https://busenq.com/wp-content/uploads/2022/09/107-Trailer-NO-AUDIO.mp4</a>
                       </video>
                     </div>
-                    <div class="editions-img1 editions-card" data-aos="fade-up">
-                      <img
-                        src="https://busenq.com/wp-content/uploads/2022/09/Screenshot-2022-09-20-at-08.43.41-213x300.png"
-                        alt="" />
-                      <p class="editions-read">
-                        Read for free on <a href="" tabindex="0">Issuu.com</a>
-                      </p>
-                    </div>
-                    <div class="editions-text">
-                      <h2 class="editions-title">
-                        Latest Editions
-                      </h2>
-                    </div>
-                    <div class="editions-img2 editions-card" data-aos="fade-down">
-                      <img
-                        src="https://busenq.com/wp-content/uploads/2022/09/Being-a-%E2%80%98dinosaur-Ive-worked-with-many-publications-around-the-world-on-articles-such-as-this-one-and-I-have-to-say-you-all-made-this-experience-one-of-the-best.-6-e1662375350150-211x300.png"
-                        alt="" />
-                      <p class="editions-read">
-                        Read for free on<a href="" tabindex="0">Issuu.com</a>
-                      </p>
+                    <div class="editions-images">
+                      <div class="editions-img1 editions-card" data-aos="fade-up">
+                        <img
+                          src="https://busenq.com/wp-content/uploads/2022/09/Screenshot-2022-09-20-at-08.43.41-213x300.png"
+                          alt="" />
+                        <p class="editions-read">
+                          Read for free on <a href="" tabindex="0">Issuu.com</a>
+                        </p>
+                      </div>
+                      <div class="editions-text">
+                        <h2 class="editions-title">
+                          Latest Editions
+                        </h2>
+                      </div>
+                      <div class="editions-img2 editions-card" data-aos="fade-down">
+                        <img
+                          src="https://busenq.com/wp-content/uploads/2022/09/Being-a-%E2%80%98dinosaur-Ive-worked-with-many-publications-around-the-world-on-articles-such-as-this-one-and-I-have-to-say-you-all-made-this-experience-one-of-the-best.-6-e1662375350150-211x300.png"
+                          alt="" />
+                        <p class="editions-read">
+                          Read for free on<a href="" tabindex="0">Issuu.com</a>
+                        </p>
+                      </div>
                     </div>
                     <style>
                       .editions-container {
                         height: 80vh;
-                        width: 100vw;
-                        display: grid;
-                        grid-template-columns: 75vw auto;
-                        grid-template-rows: 1fr auto 1fr;
-                        align-items: center;
-                      }
-
-                      .editions-video {
-                        grid-column: 1/2;
-                        grid-row: 1/4;
-                        margin-left: 8vw;
+                        width: 90%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;      
+                        margin: 0 auto;
                       }
 
                       .editions-card {
@@ -1493,8 +1490,9 @@
                       }
 
                       .editions-text {
-                        justify-self: center;
-                        margin-left: 2vw;
+                        text-align: center;
+                        margin: 30px 0;
+                        font-size: 1rem;
                       }
 
                       .editions-video video {
@@ -1516,38 +1514,38 @@
                         display: none;
                         margin-top: 10px;
                       }
-
-                      @media (max-width: 938px) {
+                      @media (max-width: 1170px) {
                         .editions-container {
-                          grid-template-columns: 1fr 1fr;
+                          flex-direction: column;
+                        }
+                        .editions-images {
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          margin-left: 50px;
                         }
                       }
 
-                      @media (max-width: 788px) {
-                        .editions-container {
-                          grid-template-columns: 1fr;
-                        }
-
-                        .editions-video {
-                          margin: 0;
-                          justify-self: center;
-                        }
-
-                        .editions-card {
-                          justify-self: center;
-                          margin-top: 20px;
-                        }
-
+                      @media (max-width: 923px) {
                         .editions-text {
-                          margin: 0;
-                          margin-top: 30px;
-                          justify-self: center;
+                          position: absolute;
+                          top: 0;
+                        }
+                        .editions-images {
+                          margin-top: -150px;
                         }
                       }
 
                       @media (max-width: 650px) {
                         .editions-video video {
                           width: 80vw !important;
+                        }
+                        .editions-images {
+                          margin-top: -50px;
+                        }
+                        .editions-text {
+                          position: absolute;
+                          top: 40%;
                         }
                       }
                     </style>
@@ -2134,7 +2132,7 @@
                         data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                         <h1 class="animate__animated animate__bounce be-club-title">BE Members Club</h1>
 
-                        <p class="animate__animated animate__bounce animate__delay-5 be-club-p">
+                        <p class="animate__animated animate__bounce animate__delay-5 be-club-p" style="font-size: 1rem;">
                           Staying up to date with the latest business
                           trends, innovations and concepts in your sector
                           can be challenging. Our member’s club content
@@ -2263,7 +2261,7 @@
           </div>
         </div>
       </section>
-      <section class="section-testimonials">
+      <section class="section-testimonials" style="margin-top: 20px;">
         <div class="content-wrap"  style="background-color:#252525 !important">
           <div class="overflow-hidden">
             <div class="padding-top">
@@ -2271,7 +2269,7 @@
                 <div class="container-medium">
                   <div data-w-id="cb0488a3-056f-c914-a72f-e88dfe879ec7" class="testimonials-flex"
                     style="padding-bottom: 0;">
-                    <div data-w-id="cb0488a3-056f-c914-a72f-e88dfe879ec8" class="dots-wrapper is-testimonials">
+                    <div data-w-id="cb0488a3-056f-c914-a72f-e88dfe879ec8" class="dots-wrapper is-testimonials" style="padding: 20px;">
                       <div class="dots-medium" style="
                             will-change: transform;
                             transform: translate3d(0px, -2em, 0px)

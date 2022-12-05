@@ -12281,6 +12281,14 @@ strong {
 }
 
 @media screen and (max-width:991px) {
+  .image-bounds-rounded.home-hero {
+    width        : 16.37em;
+    height       : 14.3em;
+  }
+  .be-clup-p {
+    font-size: 1.5rem !important;
+  }
+
   .container-medium {
     max-width: none
   }
@@ -15161,16 +15169,32 @@ strong {
     height             : auto;
     min-height         : auto;
     padding-top        : 8.5rem;
-    padding-bottom     : 107.7em;
+    padding-bottom     : 30.7em;
     -webkit-box-align  : start;
     -webkit-align-items: flex-start;
     -ms-flex-align     : start;
     align-items        : flex-start
   }
+  .image-bounds-rounded.home-hero {
+    width: 10.37em;
+    height: 4.3em;
+  }
+  .image-bounds-rounded .home-hero:last-child {
+    display: none !important;
+  }
+  .editions-container {
+    transform: translateY(-100px) !important;
+    z-index: 100;
+  }
+  .editions-images {
+    margin-top: 300px !important;
+    margin-left:  -10px !important;
+  }
 
   .image-bounds-rounded.services-hero {
     width : 60em;
-    height: 60em
+    height: 60em;
+    display: none;
   }
 
   .hero-text {
@@ -15507,18 +15531,49 @@ strong {
   .heading-large {
     font-size: 3em
   }
-
+  .bg-light-static, .bg-light {
+    display: none !important;
+  }
+  .padding-top {
+    padding-top: 5em !important;
+  }
+  .articles-section-title {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+  .be-club-container {
+    margin-top: 200px;
+  }
+  .featured-container--right {
+    padding: 0 20px;
+  }
+  .lifestyle-column2 h1 {
+    font-size: 3rem !important;
+  }
+  .lifestyle-column2 h2 {
+    font-size: 2rem !important;
+  }
+  .lifestyle-item-column1 {
+    margin-left: 0 !important;
+  }
   .heading-wrap-home-web {
     max-width  : 90.1em;
     margin-left: -87.7em;
     font-size  : 1vw
   }
-
+  .image-bounds-rounded:nth-child(3){
+    display: none !important;
+  }
   .large-circle-dark {
     margin-left: 15.6em;
     font-size  : 1.9vw
   }
-
+  .editions-title {
+    margin-left: 30px;
+  }
+  .heading-large:first-child {
+    font-size: 3rem;
+  }
   .circle-image1 {
     top: 0
   }
@@ -17549,6 +17604,14 @@ strong {
   }
 }
 
+.nav-link  {
+  color: #303030 !important;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
 .nav-links {
   height: 200px;
   display: flex;
@@ -17786,5 +17849,11 @@ strong {
 
   .bussines-lifestyle {
     text-align: center;
+  }
+}
+
+@media (max-width: 786px){
+  .editions-img1 .editions-card {
+    margin-top: 50px;
   }
 }
