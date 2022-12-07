@@ -2127,59 +2127,413 @@
             </div>
             
           </div>
-        </section>
-        <section class="section-branding">
-          <div class="articles-section1">
-            <div class="myBtnContainer" id="myBtnContainer">
-              <button class="btn_c active" onclick="filterSelection('all')"> All</button>
-              <button class="btn" onclick="filterSelection('executives')"> Executives</button>
-              <button class="btn" onclick="filterSelection('investing')"> Investing</button>
-              <button class="btn" onclick="filterSelection('lifestyle')"> Lifestyle</button>
-              <button class="btn_c" onclick="filterSelection('news')"> News</button>
-            </div>
-            
-            <div class="recent-articles">
-              <div class="other-articles articles-content">
-
-                <h1 data-aos="fade-up" data-aos-duration="5000" class="articles-title">Recent <span class="articles-title1" style="font-size:10px">Articles</span></h1>
-
-                <form action="" method="get" class="search">
-                  <input type="text" class="search-input" placeholder="Search">
-                  <button class="btn-search"><img class="img_search" src="icons/busqueda.png" alt="Search"></button>
-                </form>
-
-                <div class="myBtnContainer1">
-                  <button class="btn_c"> Name</button>
-                  <button class="btn_c"> Date</button>
-                </div>
-      
-              </div>
-              <div class="main-articles articles-content">
-                
-                <div class="filterDiv executives filterDiv1 article" data-aos="zoom-in">  
+          <div class="articles-container">
+            <div class="articles-column-one" data-aos="fade-right">
+              <form action="" method="get">
+                <input type="text" class="search-input" placeholder="Search article...">
+              </form>
+              <div class="latest-articles">
+                <h1>Latest Articles</h1>
+                <div class="article">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
                   <div class="article-title">
-                    <span class="article-left">Lionel Messi launches investment firm targeting sports and tech</span>
-                    <span class="article-right">18</span>
-                    <span class="article-right-mini">Noviembre</span>
-                    <div class="stripe1"></div><div class="f1"></div>
-                    <div class="stripe2"></div><span class="text-article">Sports - Soccer</span><div class="f2"></div>
-                    <div class="article-img1"></div>
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+              </div>
+              <div class="popular-articles">
+                <h1>Popular Articles</h1>
+                <div class="article">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="articles-section" data-aos="fade-left">
+              <h1 data-aos="fade-up"
+              data-aos-duration="5000" class="articles-section-title">Recent Articles</h1>
+              <p data-aos="fade-up"
+              data-aos-duration="1000">News, analysis and comment from Business Enquirer, one of the leading global business publications.</p>
+              <!--<div class="articles-category">
+                <div class="articles-category-left">
+                  <a href="#">All Categories</a>
+                  <a href="#">Executives</a>
+                  <a href="#">Investing</a>
+                  <a href="#">lifestyle</a>
+                  <a href="#">News</a>
+                </div>
+                <div class="articles-category-right">
+                  <a href="#">Name</a>
+                  <a href="#">Date</a>
+                </div>
+              </div>
+              <div class="articles">
+                <div class="article">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+                <div class="article" data-aos="zoom-in">
+                  <figure class="article-img">
+                    <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                  </figure>
+                  <div class="article-category">
+                    <h5>Investing</h5>
+                    <h5>News</h5>
+                  </div>
+                  <div class="article-title">
+                    Lionel Messi launches investment firm targeting sports and tech
+                  </div>
+                </div>
+              </div>-->
 
-                  </div>          
-                </div>      
-              
-                <div class="filterDiv executives filterDiv2 article" data-aos="zoom-in">   
-                  <div class="article-img2"></div>  
-                  <div class="stripe3"></div><div class="f3"><span class="text-article1">Events</span>  </div> 
-                  
+              <style>
+                .filterDiv {
+                  float: left;
+                  background-color: #292929;
+                  color: #ffffff;
+                  width: 320px;
+                  line-height: 25px;
+                  text-align: left;
+                  margin: 2px;
+                  display: none;
+                  border-radius: 40px;
+                  height: 370px;
+                }
+                
+                .show {
+                  display: block;
+                }
+                
+                .container {
+                  margin-top: 20px;
+                  overflow: hidden;
+                }
+                
+                /* Style the buttons */
+                .btn {
+                  border: none;
+                  outline: none;
+                  padding: 12px 16px;
+                  background-color: #f1f1f1;
+                  cursor: pointer;
+                }
+                
+                .btn:hover {
+                  background-color: #ddd;
+                }
+                
+                .btn.active {
+                  background-color: #666;
+                  color: white;
+                }
+                </style>
+
+                
+                <div id="myBtnContainer">
+                  <button class="btn active" onclick="filterSelection('all')"> All Categories</button>
+                  <button class="btn" onclick="filterSelection('executives')"> Executives</button>
+                  <button class="btn" onclick="filterSelection('investing')"> Investing</button>
+                  <button class="btn" onclick="filterSelection('lifestyle')"> Lifestyle</button>
+                  <button class="btn" onclick="filterSelection('news')"> News</button>
                 </div>
-              
-              
-                <div class="filterDiv executives filterDiv2 article" data-aos="zoom-in">   
-                  <div class="article-img2"></div>  
-                  <div class="stripe3"></div><div class="f3"><span class="text-article1">Business</span> </div>   
+                
+                <div class="container">
+                  <div class="filterDiv executives article" data-aos="zoom-in">  
+                    <div class="article-title">
+                      <span class="article-left">Lionel Messi launches investment firm targeting sports and tech</span>
+                      <span class="article-right">18</span>
+                      <span class="article-right-mini">Noviembre</span>
+                      <div class="stripe1"></div><div class="f1"></div>
+                      <div class="stripe2"></div><div class="f2"></div>
+                      <div class="article-img1"></div>
+
+                    </div>
+                    
+                    <!--<figure class="article-img">
+                      <img src="" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>-->
+
+                  </div>
+                  <!--<div class="filterDiv news lifestyle">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv executives">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv news">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv executives investing">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv news">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv investing">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv investing">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv lifestyle">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv lifestyle investing">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv lifestyle">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv lifestyle">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>
+                  <div class="filterDiv investing">
+                    <figure class="article-img">
+                      <img src="https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png" alt="">
+                    </figure>
+                    <div class="article-category">
+                      <h5>Investing</h5>
+                      <h5>News</h5>
+                    </div>
+                    <div class="article-title">
+                      Lionel Messi launches investment firm targeting sports and tech
+                    </div>
+                  </div>-->
                 </div>
-                      
+                
                 <script>
                 filterSelection("all")
                 function filterSelection(c) {
@@ -2191,7 +2545,6 @@
                     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
                   }
                 }
-
                 
                 function w3AddClass(element, name) {
                   var i, arr1, arr2;
@@ -2225,15 +2578,18 @@
                   });
                 }
                 </script>
-
-              </div>
-  
-
             </div>
+
+              
+      
           </div>
+          <div class="more">
+            <a href="#" class="more-articles">Load more articles</a>
+          </div>
+
+          
+          
         </section>
-
-
 
         <section class="section-home-featured">
           <div class="content-wrap">
@@ -2543,7 +2899,6 @@
       type="text/javascript"
     ></script>
     <script src="js/dropdown.js"></script>
-
     <style>
       .nav-menu-link {
         cursor: pointer;
@@ -3106,7 +3461,5 @@
     <script>
       AOS.init();
     </script>
-
-
   </body>
 </html>

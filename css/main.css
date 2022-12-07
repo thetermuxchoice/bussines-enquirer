@@ -3256,7 +3256,7 @@ strong {
 
 .editions-title {
   text-transform: uppercase;
-  margin-left: -50px;
+  margin-left: 0px;
   font-weight: 900;
 }
 @media (max-width: 757px ){
@@ -17757,11 +17757,15 @@ strong {
 }
 
 .featured-container--left_top {
-  width: 90%;
+  width: 950px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   padding: 30px;
   background-image: url("https://media.istockphoto.com/id/1334372779/photo/open-book-and-steaming-cup-of-coffee-on-wooden-table.jpg?b=1&s=170667a&w=0&k=20&c=P4etbgRrBb326oKlfoy5iVCcqPduXu2CLR4UZq41uXw=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -78px;
+  height: 320px;
 }
 
 .featured-container--left_top h1{
@@ -17769,7 +17773,7 @@ strong {
 }
 
 .featured-form-input {
-  width: 100%;
+  width: 77%;
   height: 50px;
   background-color: rgba(255, 255, 255, 0.7);;
   font-style: italic;
@@ -17784,7 +17788,7 @@ strong {
 .featured-container--left_bottom {
   display: flex;
   gap: 20px;
-  margin-top: 50px;
+  margin-top: 85px;
   text-align: center;
 }
 
@@ -17793,7 +17797,7 @@ strong {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  width: 500px;
+  width: 489px;
 }
 
 .featured-img {
@@ -17856,4 +17860,49 @@ strong {
   .editions-img1 .editions-card {
     margin-top: 50px;
   }
+}
+.video-e{
+  padding: 30px;
+  width: 60em !important;
+  margin: 55px;
+}
+
+.editions-img1 {
+  display: block;
+  width: 60%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.editions-img2 {
+  margin-left: 0% !important;
+  /*height: 35vh !important;*/
+  border-radius: 4%;
+  /*width: 80vh;*/
+  width: 35vh;
+  height: auto !important;
+}
+
+.f-img{
+height: 200px;
+width: 150px;
+}
+
+.featured-info-p{
+  width: 65%;
+  margin: 0 auto;
+}
+
+.featured-center{
+  margin:0px auto;
+}
+
+.editions-container1{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1600px;
+  color: #fff;
+  padding: 50px 0;
 }
