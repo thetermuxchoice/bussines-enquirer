@@ -7,6 +7,16 @@
   height: 80vh;
 }
 
+.recent-articles1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  gap: 20px;
+  height: 80vh;
+  margin-top: 128px;
+}
+
 .articles-section {
   background-color: #1F1F1F;
   padding: 20px 0;
