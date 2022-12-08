@@ -89,18 +89,17 @@
     
   }
 
-@media (max-width: 400px) {
+@media (max-width: 479px) {
 .slide-content {
   width: 100%;
   height: auto;
   margin-left: 10px;
   text-align: left;
-  margin-right: 10px;
   
 }
 }
 
-@media screen and (min-width: 400px) and (max-width: 500px) {
+@media screen and (min-width: 480px) and (max-width: 500px) {
   .slide-content {
     width: 100%;
     height: auto;
@@ -189,11 +188,13 @@
 @media (max-width: 1000px){
   .recent-articles {
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 65px;
     width: 100%;
     text-align: center;
   }
-  .otherSwipper {
-    
-  }
+}
+@media (max-width: 479px) {
+.swiper-button-next, .swiper-button-prev {
+  top: 26% !important;
+}
 }
