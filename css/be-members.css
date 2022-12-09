@@ -198,7 +198,7 @@
   a:hover
   ~ .listar-feature-item-inner
   .listar-feature-right-border:before {
-  border: 11px solid #2f53bf;
+  border: 11px solid #e0bb4c;
 }
 
 .listar-feature-right-border:before,
@@ -218,7 +218,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  border: 11px solid #258bd5;
+  border: 11px solid #e0bb4c;
   border-radius: 800px;
   left: -50%;
 }

@@ -6427,7 +6427,7 @@ strong {
 }
 
 .blob.blue-dark {
-  background-color: #5d6988
+  background-color: #e0bb4c;
 }
 
 .blob.blue-light {
@@ -6459,7 +6459,7 @@ strong {
 }
 
 .blob.white {
-  background-color: #dadada
+  background-color: #e0bb4c88;
 }
 
 .navbar-menu {
@@ -9141,7 +9141,7 @@ strong {
   width           : 100%;
   height          : 20px;
   padding-top     : 1px;
-  background-color: #dadada
+  background-color: #1f1f1f;
 }
 
 .footer-freeze-wrap.is--hide {
@@ -10264,10 +10264,10 @@ strong {
   margin-right      : auto;
   margin-left       : auto;
   padding           : 0;
-  background-color  : #252525;
+  background-color  : #e0bb4c;
   -webkit-transition: letter-spacing 1.5s cubic-bezier(.23, 1, .32, 1);
   transition        : letter-spacing 1.5s cubic-bezier(.23, 1, .32, 1);
-  color             : #dadada;
+  color             : #252525;
   letter-spacing    : -.1em;
   text-transform    : uppercase
 }
@@ -10805,7 +10805,7 @@ strong {
 
 .social-link:hover {
   background-color: #252525;
-  color           : #dadada
+  color           : #e0bb4c;
 }
 
 .social-link:focus-visible {

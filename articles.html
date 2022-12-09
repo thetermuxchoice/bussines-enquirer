@@ -79,6 +79,8 @@
     <link rel="stylesheet" href="css/modules/animate.css">
     <link rel="stylesheet" href="css/articles-page.css">
     <link rel="stylesheet" href="css/modules/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 
     <link href="css/modules/aos.css" rel="stylesheet" />
     <script type="text/javascript">
@@ -432,7 +434,7 @@
       ></div>
       <nav class="nav">
         <nav class="navbar">
-          <a href="/" class="nav-logo-link w-inline-block"
+          <a href="./" class="nav-logo-link w-inline-block"
             ><div class="nav-reform-wrap"></div>
             <div class="link-alt-text">Business Enquirer home</div>
             <img
@@ -547,7 +549,7 @@
                     transform-style: preserve-3d;
                   "
                 ></div>
-                <a href="/articles.html" class="nav-link w-inline-block"
+                <a href="articles.html" class="nav-link w-inline-block"
                   ><div class="container-large">
                     <div class="padding-nav">
                       <div class="nav-link-row">
@@ -733,7 +735,7 @@
                     transform-style: preserve-3d;
                   "
                 ></div>
-                <a href="/be-media.html" class="nav-link w-inline-block"
+                <a href="be-media.html" class="nav-link w-inline-block"
                   ><div class="container-large">
                     <div class="padding-nav">
                       <div class="nav-link-row">
@@ -903,7 +905,7 @@
                     transform-style: preserve-3d;
                   "
                 ></div>
-                <a href="/about.html" class="nav-link w-inline-block"
+                <a href="about.html" class="nav-link w-inline-block"
                   ><div class="container-large">
                     <div class="padding-nav">
                       <div class="nav-link-row">
@@ -1041,7 +1043,7 @@
                     transform-style: preserve-3d;
                   "
                 ></div>
-                <a href="/contact.html" class="nav-link w-inline-block"
+                <a href="contact.html" class="nav-link w-inline-block"
                   ><div class="container-large">
                     <div class="padding-nav">
                       <div class="nav-link-row">
@@ -1200,7 +1202,7 @@
                     </div>
                   </div></a
                 >
-                <a href="/jobs.html" class="nav-link w-inline-block"
+                <!--<a href="jobs.html" class="nav-link w-inline-block"
                   ><div class="container-large">
                     <div class="padding-nav">
                       <div class="nav-link-row">
@@ -1301,8 +1303,8 @@
                       </div>
                     </div>
                   </div></a
-                >
-                <a href="/be-members.html" class="nav-link w-inline-block"
+                >-->
+                <a href="be-members.html" class="nav-link w-inline-block"
                   ><div class="container-large">
                     <div class="padding-nav">
                       <div class="fix-nav">
@@ -2029,17 +2031,16 @@
       </div>
       <main id="main" class="main-wrapper">
         <section class="section-home-hero">
-            <div
+          <div
             data-w-id="0ac491ec-7a63-2c24-73de-d649de1fd6e7"
             class="hero-wrap is--home"
           >
-            <div class="padding-horizontal">
+            <div class="padding-horizontal" style="margin-top: -240px;">
               <div
                 data-w-id="a2973fe6-199f-dfd6-a4bd-2fecb1a6f45b"
                 class="dots-wrapper is-home-hero"
                 style=""
               >
-              
                 <div
                   data-w-id="e8fb29b4-4dbe-4098-bb53-267364f106e5"
                   style="
@@ -2062,7 +2063,23 @@
               </div>
               <div class="container-medium">
                 <div class="hero-wrapper">
-                  <div class="hero-heading-wrap"></div>
+                  <div class="hero-heading-wrap">
+                    <h1 class="heading-xxl">
+                      <span
+                        data-w-id="0f0208e8-95e4-5a32-beb9-5a9970980739"
+                        style="
+                          transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1)
+                            rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                            skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                          opacity: 1; margin-bottom:85px;
+                        "
+                        class="heading-animate home-hero-1"
+                        >Busines Enquirer</span
+                      >
+       
+                    </h1>
+                  </div>
                   <div class="hero-image-wrap">
                     <div
                       data-w-id="40f9fbfd-94c2-3bea-6bfd-b9c1793a2bf9"
@@ -2112,9 +2129,7 @@
                       ></div>
                     </div>
                   </div>
-                  <div class="hero-text is--hero">
-                  </div>
-                  
+                  <div class="hero-text is--hero"></div>
                 </div>
               </div>
             </div>
@@ -2125,107 +2140,146 @@
                 class="ball bounce is--home"
               ></div>
             </div>
-            
           </div>
         </section>
         <section class="section-branding">
           <div class="articles-section1">
             <div class="myBtnContainer" id="myBtnContainer">
-              <button class="btn_c active" onclick="filterSelection('all')"> All</button>
-              <button class="btn" onclick="filterSelection('executives')"> Executives</button>
-              <button class="btn" onclick="filterSelection('investing')"> Investing</button>
-              <button class="btn" onclick="filterSelection('lifestyle')"> Lifestyle</button>
-              <button class="btn_c" onclick="filterSelection('news')"> News</button>
+              <button class="btna_c active" onclick="filterSelection('all')"> All</button>
+              <button class="btna" onclick="filterSelection('executives')"> Executives</button>
+              <button class="btna" onclick="filterSelection('investing')"> Investing</button>
+              <button class="btna" onclick="filterSelection('lifestyle')"> Lifestyle</button>
+              <button class="btna_c" onclick="filterSelection('news')"> News</button>
             </div>
             
             <div class="recent-articles1">
-              <div class="other-articles1 articles-content">
 
-                <h1 data-aos="fade-up" data-aos-duration="5000" class="articles-title">Recent <span class="articles-title1" style="font-size:10px">Articles</span></h1>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row">
 
-                <form action="" method="get" class="search">
-                  <input type="text" class="search-input" placeholder="Search">
-                  <button class="btn-search"><img class="img_search" src="icons/busqueda.png" alt="Search"></button>
-                </form>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 other-articles1 articles-content">
 
-                <div class="myBtnContainer1">
-                  <button class="btn_c"> Name</button>
-                  <button class="btn_c"> Date</button>
+                  <h1 data-aos="fade-up" data-aos-duration="5000" class="articles-title">Recent <span class="articles-title1" style="font-size:10px">Articles</span></h1>
+
+                  <form action="" method="get" class="search">
+                    <input type="text" class="search-input" placeholder="Search">
+                    <button class="btn-search"><img class="img_search" src="icons/busqueda.png" alt="Search"></button>
+                  </form>
+
+                  <div class="myBtnContainer1">
+                    <button class="btna_c"> Name</button>
+                    <button class="btna_c"> Date</button>
+                  </div>
+        
                 </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 main-articles articles-content">
+                      <div class="filterDiv executives filterDiv1 article" data-aos="zoom-in">  
+                        <div class="article-title">
+                          <span class="article-left">Lionel Messi launches investment firm targeting sports and tech</span>
+                          <span class="article-right">18</span>
+                          <span class="article-right-mini">Noviembre</span>
+                          <div class="stripe1"></div><div class="f1"></div>
+                          <div class="stripe2"></div><span class="text-article">Sports - Soccer</span><div class="f2"></div>
+                          <div class="article-img1"></div>
+  
+                        </div>          
+                      </div>     
       
-              </div>
-              <div class="main-articles articles-content">
-                
-                <div class="filterDiv executives filterDiv1 article" data-aos="zoom-in">  
-                  <div class="article-title">
-                    <span class="article-left">Lionel Messi launches investment firm targeting sports and tech</span>
-                    <span class="article-right">18</span>
-                    <span class="article-right-mini">Noviembre</span>
-                    <div class="stripe1"></div><div class="f1"></div>
-                    <div class="stripe2"></div><span class="text-article">Sports - Soccer</span><div class="f2"></div>
-                    <div class="article-img1"></div>
+                   
+   
+                        <div class="filterDiv executives filterDiv2 article" data-aos="zoom-in">   
+                          <div class="article-img2"></div>  
+                          <div class="stripe3"></div><div class="f3"><span class="text-article1">Events</span>  </div> 
+                          
+                        </div>
 
-                  </div>          
-                </div>      
-              
-                <div class="filterDiv executives filterDiv2 article" data-aos="zoom-in">   
-                  <div class="article-img2"></div>  
-                  <div class="stripe3"></div><div class="f3"><span class="text-article1">Events</span>  </div> 
-                  
-                </div>
-              
-              
-                <div class="filterDiv executives filterDiv2 article" data-aos="zoom-in">   
-                  <div class="article-img2"></div>  
-                  <div class="stripe3"></div><div class="f3"><span class="text-article1">Business</span> </div>   
-                </div>
+                   
+                   
+   
+                        <div class="filterDiv executives filterDiv2 article" data-aos="zoom-in">   
+                          <div class="article-img2"></div>  
+                          <div class="stripe3"></div><div class="f3"><span class="text-article1">Events</span>  </div> 
+                          
+                        </div>
+  
+                    <!--<div class="col-xs-12 col-sm-12 col-md-12" style="border:solid #16d70f">
+                     
+                    <div class="col-xs-12 col-sm-12 col-md-4 filterDiv executives filterDiv1 article" data-aos="zoom-in" style="border:solid red">  
+                        <div class="article-title">
+                          <span class="article-left">Lionel Messi launches investment firm targeting sports and tech</span>
+                          <span class="article-right">18</span>
+                          <span class="article-right-mini">Noviembre</span>
+                          <div class="stripe1"></div><div class="f1"></div>
+                          <div class="stripe2"></div><span class="text-article">Sports - Soccer</span><div class="f2"></div>
+                          <div class="article-img1"></div>
+  
+                        </div>          
+                      </div>      
+                    
+                      <div class="col-xs-12 col-sm-12 col-md-4 filterDiv executives filterDiv2 article" data-aos="zoom-in" style="border:solid red">   
+                        <div class="article-img2"></div>  
+                        <div class="stripe3"></div><div class="f3"><span class="text-article1">Events</span>  </div> 
+                        
+                      </div>
+                    
+                    
+                      <div class="col-xs-12 col-sm-12 col-md-4 filterDiv executives filterDiv2 article" data-aos="zoom-in" style="border:solid red">   
+                        <div class="article-img2"></div>  
+                        <div class="stripe3"></div><div class="f3"><span class="text-article1">Business</span> </div>   
+                      </div>  
+
                       
-                <script>
-                filterSelection("all")
-                function filterSelection(c) {
-                  var x, i;
-                  x = document.getElementsByClassName("filterDiv");
-                  if (c == "all") c = "";
-                  for (i = 0; i < x.length; i++) {
-                    w3RemoveClass(x[i], "show");
-                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-                  }
-                }
 
-                
-                function w3AddClass(element, name) {
-                  var i, arr1, arr2;
-                  arr1 = element.className.split(" ");
-                  arr2 = name.split(" ");
-                  for (i = 0; i < arr2.length; i++) {
-                    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-                  }
-                }
-                
-                function w3RemoveClass(element, name) {
-                  var i, arr1, arr2;
-                  arr1 = element.className.split(" ");
-                  arr2 = name.split(" ");
-                  for (i = 0; i < arr2.length; i++) {
-                    while (arr1.indexOf(arr2[i]) > -1) {
-                      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                    </div>-->
+
+                  </div>
+                        
+                  <script>
+                  filterSelection("all")
+                  function filterSelection(c) {
+                    var x, i;
+                    x = document.getElementsByClassName("filterDiv");
+                    if (c == "all") c = "";
+                    for (i = 0; i < x.length; i++) {
+                      w3RemoveClass(x[i], "show");
+                      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
                     }
                   }
-                  element.className = arr1.join(" ");
-                }
-                
-                // Add active class to the current button (highlight it)
-                var btnContainer = document.getElementById("myBtnContainer");
-                var btns = btnContainer.getElementsByClassName("btn");
-                for (var i = 0; i < btns.length; i++) {
-                  btns[i].addEventListener("click", function(){
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                  });
-                }
-                </script>
 
+                  
+                  function w3AddClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+                    }
+                  }
+                  
+                  function w3RemoveClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                      while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                      }
+                    }
+                    element.className = arr1.join(" ");
+                  }
+                  
+                  // Add active class to the current button (highlight it)
+                  var btnContainer = document.getElementById("myBtnContainer");
+                  var btns = btnContainer.getElementsByClassName("btn");
+                  for (var i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function(){
+                      var current = document.getElementsByClassName("active");
+                      current[0].className = current[0].className.replace(" active", "");
+                      this.className += " active";
+                    });
+                  }
+                  </script>
+
+                </div>
               </div>
   
 

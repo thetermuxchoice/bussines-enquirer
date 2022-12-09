@@ -300,7 +300,7 @@ margin-right: -7px;
   height: 40px;
   margin-top: 94px;
   width: 48%;
-  margin-left: 169px;
+  margin-left: 178px;
   transform: skew(-30deg);
 }
 
@@ -308,7 +308,7 @@ margin-right: -7px;
   background-color: #EE9610;
   height: 40px;
   width: 51px;
-  margin-right: -19px;
+  margin-right: -21px;
   float: right;
   margin-top: -40px;
 }
@@ -326,9 +326,9 @@ margin-right: -7px;
 .stripe3{
   background-color: #ee9610;
   height: 61px;
-  margin-top: 0px;
+  margin-top: 25px;
   width: 60%;
-  margin-left: -29px;
+  margin-left: -31px;
   transform: rotate(-90deg) skew(-26deg);
   -ms-transform: rotate(-90deg) skew(-26deg);
   -webkit-transform: rotate(-90deg) skew(-26deg);
@@ -352,7 +352,7 @@ margin-right: -7px;
   float: left;
   margin-top: 4px;
   position: absolute;
-  margin-left: 1px;
+  margin-left: -1px;
   border-radius: 0 0px 0px 42px;
 }
 
@@ -387,23 +387,23 @@ margin-right: -7px;
   background-size: cover;
   height: 50px;*/
   background-repeat: no-repeat;
-    background-size: 100%;
-    height: 255px;
+    background-size: cover;
+    height: 305px;
     margin-top: -38px;
     border-radius: 0 0px 42px 42px;
-    width: 351px;
+    width: 371px;
     margin-left: -20px;
 }
 
 .article-img2{
-  background-image: url("https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png");
+  background-image: url(https://busenq.com/wp-content/uploads/2021/05/messi-e1666311691527.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
-  margin-top: 105px;
+  height: 202px;
+  margin-top: 128px;
   border-radius: 42px;
-  width: 411px;
-  margin-left: -106px;
+  width: 462px;
+  margin-left: -131px;
   transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
@@ -413,26 +413,26 @@ margin-right: -7px;
   float: left;
   background-color: #292929;
   color: #ffffff;
-  width: 351px;
+  width: 370px !important;
   line-height: 25px;
   text-align: left;
   margin: 2px;
   display: none;
   border-radius: 40px;
-  height: 410px;
+  height: 460px;
 }
 
 .filterDiv2 {
   float: left;
   background-color: #292929;
   color: #ffffff;
-  width: 200px;
+  width: 200px !important;
   line-height: 25px;
   text-align: left;
   margin:  2px 2px 2px 30px;
   display: none;
   border-radius: 40px;
-  height: 410px;
+  height: 460px;
 }
 
 .show {
@@ -445,10 +445,10 @@ margin-right: -7px;
 }
 
 /* Style the buttons */
-.btn {
+.btna {
   border: none;
   outline: none;
-  padding: 12px 16px;
+  padding: 7px 16px;
   background-color: #f1f1f12e !important;
   cursor: pointer;
   border-radius: 50px;
@@ -458,10 +458,10 @@ margin-right: -7px;
   height: 40px;
 }
 
-.btn_c {
+.btna_c {
   border: none;
   outline: none;
-  padding: 12px 16px;
+  padding: 7px 16px;
   background-color: #f1f1f12e !important;
   cursor: pointer;
   border-radius: 50px;
@@ -471,11 +471,11 @@ margin-right: -7px;
   height: 40px;
 }
 
-.btn:hover {
+.btna:hover {
   background-color: #ddd;
 }
 
-.btn.active {
+.btna.active {
   background-color: #666;
   color: white;
 }
@@ -485,10 +485,11 @@ margin-right: -7px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: -34px 0px 60px 0px;
 }
 .articles-section1{
 background-color: #010101;
-    padding: 20px 0;
+    padding: 55px 0;
 }
 
 
@@ -498,7 +499,7 @@ background-color: #010101;
   margin-left: 70px;
   font-weight: 900;
   text-transform: uppercase;
-  margin: 100px 100px 0px 100px;
+  margin: 100px 10px 0px 10px;
   color: #fff;
   line-height: 64px;
   text-align: center;
@@ -538,16 +539,17 @@ background-color: #010101;
 
 .btn-search {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  /*top: 50%;
+  left: 50%;*/
   background-color: #F1950E !important;
   cursor: pointer;
   border-radius: 12px;
   color: #ffff !important;
-  height: 40px;
-  width: 40px;
-  margin: 44px 0 0 -19.9%;
-  
+  height: 47px;
+  width: 47px;
+  /*margin: 44px 0 0 -19.9%;*/
+  display: inline-block;
+  margin: 14px 0px;
 }
 
 .myBtnContainer1{
