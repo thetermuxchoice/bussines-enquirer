@@ -3772,6 +3772,18 @@ strong {
   text-transform: uppercase;
 }
 
+.heading-large1 {
+margin-top: 0;
+    margin-bottom: 0;
+    font-size: 27px;
+    line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: -.08em;
+    text-transform: uppercase;
+    width: 110%;
+    text-align: center;
+}
+
 .heading-wrap-home-web {
   display                : -webkit-box;
   display                : -webkit-flex;
@@ -10213,7 +10225,8 @@ strong {
 
 .lead-form-wrap {
   width     : 100%;
-  margin-top: 10.7em
+  /*margin-top: 10.7em;*/
+  margin-top: 0em;
 }
 
 .lead-form-wrap.is--role {
@@ -10635,7 +10648,7 @@ strong {
 }
 
 .field-margin-bottom {
-  margin-bottom: 6em
+  margin-bottom: 3em
 }
 
 .field-margin-bottom.is--role-centred {
@@ -17778,7 +17791,7 @@ strong {
   background-image: url("https://media.istockphoto.com/id/1334372779/photo/open-book-and-steaming-cup-of-coffee-on-wooden-table.jpg?b=1&s=170667a&w=0&k=20&c=P4etbgRrBb326oKlfoy5iVCcqPduXu2CLR4UZq41uXw=");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: -78px;
+  margin-left: -45px;
   height: 320px;
 }
 
@@ -17986,5 +17999,10 @@ width: 150px;
     width: 84%;
   }
 }*/
+
+.videoe_c{
+  display: flex;
+  align-items: center;
+}
 
 
