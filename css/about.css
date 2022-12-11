@@ -30,7 +30,8 @@
 
 .person-info {
   position: absolute;
-  background-color: rgba(41, 108, 209, 0.486);
+  /*background-color: rgba(41, 108, 209, 0.486);*/
+  background-color: rgba(224, 187, 76, 0.486);
   bottom: 0;
   color: #fff;
   padding: 50px;
