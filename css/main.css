@@ -2574,21 +2574,24 @@ strong {
 .image-bounds-rounded.is-home-social-1 {
   z-index         : 2;
   width           : 22.32em;
-  height          : 14.7em;
+  /*height          : 14.7em;*/
+  height: auto;
   background-color: #292929
 }
 
 .image-bounds-rounded.is-home-social-2 {
   z-index         : 2;
   width           : 35.5em;
-  height          : 23.41em;
+  /*height          : 23.41em;*/
+  height: auto;
   background-color: #292929
 }
 
 .image-bounds-rounded.is-home-social-3 {
   z-index         : 2;
   width           : 32.38em;
-  height          : 21.3em;
+  /*height          : 21.3em;*/
+  height: auto;
   background-color: #292929
 }
 
@@ -2682,9 +2685,10 @@ strong {
 
 .section-home-hero {
   position      : relative;
-  z-index       : 2;
+  /*z-index       : 2;*/
+  z-index       : 1;
   overflow      : hidden;
-  padding-bottom: 17em
+  padding-bottom: 17em;
 }
 
 .hero-text {
@@ -18003,4 +18007,12 @@ width: 150px;
 .videoe_c{
   display: flex;
   align-items: center;
+}
+
+.videop{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
 }
