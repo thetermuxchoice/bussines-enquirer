@@ -5795,7 +5795,7 @@ margin-top: 0;
 }
 
 .menu,
-.next {
+/*.next {
   -webkit-box-flex          : 0;
   -webkit-flex              : 0 0 auto;
   -ms-flex                  : 0 0 auto;
@@ -5809,7 +5809,7 @@ margin-top: 0;
   font-weight               : 300;
   letter-spacing            : -.07em;
   text-transform            : uppercase
-}
+}*/
 
 .menu1 {
   -webkit-box-flex: 0;
