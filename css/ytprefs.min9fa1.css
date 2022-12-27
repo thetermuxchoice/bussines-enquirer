@@ -108,18 +108,35 @@ iframe.__youtube_prefs__{
     /*font-size:80%;
     line-height:120%;
     padding:10px;*/
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
+    font-weight: 600;
+    font-size: 15px;
     line-height: 30px;
     color: #FFFFFF;
     /*padding:10px;*/
+    text-align: left;
 
 }
+.epyt-gallery-title-a{
+    /*font-size:80%;
+    line-height:120%;
+    padding:10px;*/
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    /*padding:10px;*/
+    text-align: left;
+    background: linear-gradient(#dadada,#454444);
+    -webkit-background-clip: text;
+    color: #d4d1d196;
+}
 .title-bemedia{ 
-    font-family: 'Inter';
-    font-style: normal;
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
     font-weight: 700;
     font-size: 52px;
     line-height: 63px;
@@ -435,8 +452,8 @@ body .epyt-gallery-img-gdpr{
 }
 
 .title-bemedia-d{
-    font-family: 'Inter';
-    font-style: normal;
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
     font-weight: 600;
     font-size: 38px;
     line-height: 46px;
@@ -446,8 +463,8 @@ body .epyt-gallery-img-gdpr{
 
 .title-bemedia-d1{
 
-    font-family: 'Inter';
-    font-style: normal;
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -456,8 +473,8 @@ body .epyt-gallery-img-gdpr{
 }
 
 .title-bemedia-login{
-    font-family: 'Inter';
-    font-style: normal;
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
     font-weight: 500;
     font-size: 26px;
     line-height: 31px;
@@ -495,8 +512,8 @@ body .epyt-gallery-img-gdpr{
     margin-bottom: 10px;
 }
 .login__footer-link{
-    font-family: 'Inter';
-    font-style: normal;
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
     font-weight: 300;
     font-size: 18px;
     line-height: 35px;
@@ -504,8 +521,8 @@ body .epyt-gallery-img-gdpr{
 }
 
 .login__footer-link:hover{
-    font-family: 'Inter';
-    font-style: normal;
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
     font-weight: 300;
     font-size: 18px;
     line-height: 35px;
