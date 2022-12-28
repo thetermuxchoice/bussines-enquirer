@@ -363,7 +363,6 @@
                                 var i = parseInt(f.data("currpage") + "");
                                 i += h ? 1 : -1;
                                 f.data("currpage", i);
-                                console.log('holaaaaaaa2'+_EPYT_);
                                 b.post(_EPYT_.ajaxurl, j, function(l) {
                                     f.find(".epyt-gallery-list").html(l);
                                     f.find(".epyt-current").each(function() {
