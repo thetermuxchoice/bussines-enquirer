@@ -80,6 +80,7 @@
     <link rel="stylesheet" href="css/modules/aos.css" />
     <link rel="stylesheet" href="css/modules/animate.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
 
     <link href="css/modules/aos.css" rel="stylesheet" />
   
@@ -2094,6 +2095,36 @@
           </div>
         </section>
         <div class="pset" id="news-menu">
+            <div class="menu-articles">
+                <nav id='cssmenu' class="nav-menu">
+                  <div id="head-mobile"></div>
+                  <div class="button-menu"></div>
+                  <ul>
+                    <li class='active'><a href='#'>All</a></li>
+                    <li><a href='#'>Executives</a></li>
+                    <li><a href='#'>Investing</a>
+                      <ul>
+                          <li><a href='#'>Item 1</a>
+                            <ul>
+                                <li><a href='#'>Sub Item 1</a></li>
+                                <li><a href='#'>Sub item 2</a></li>
+                            </ul>
+                          </li>
+                          <li><a href='#'>Item 2</a>
+                            <ul>
+                                <li><a href='#'>Sub Item 2</a></li>
+                                <li><a href='#'>Sub Item 2</a></li>
+                            </ul>
+                          </li>
+                      </ul>
+                    </li>
+                    <li><a href='#'>Lifestyle</a></li>
+                    <li><a href='#'>News</a></li>
+                  </ul>
+                </nav>
+            </div>
+
+
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                   <h1 data-aos="fade-up" data-aos-duration="5000" class="articles-title">Recent Articles</h1>
@@ -2110,7 +2141,7 @@
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
                   <div class="epyt-video-wrapper" style="width: 80%; margin: 40px auto;">
-                    <div width="900" height="450"  data-origwidth="900" data-origheight="450" class="__youtube_prefs__ epyt-facade no-lazyload">
+                    <div id="div-img" width="900" height="450"  data-origwidth="900" data-origheight="450" class="__youtube_prefs__ epyt-facade no-lazyload" data-aos="zoom-out-right">
                        <img  id="img_p" loading="lazy" class="epyt-facade-poster lazyload" src="img/articles1.png" />
                     </div>
                     <div>
@@ -3221,6 +3252,7 @@
       <script type='text/javascript' src='js/smush-lazy-load.min5900.js?ver=3.11.1' id='smush-lazy-load-js'></script>
       <!--<script type='text/javascript' src='js/ytprefs.min9fa1.js?ver=14.1.2' id='__ytprefs__-js'></script>-->
       <script src='https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.js'></script>
+      <script  src="js/script-menu.js"></script>
 <script>
 /*pagination*/
 /* var items = $(".list-wrapper .list-item");
@@ -3255,6 +3287,7 @@ document.querySelectorAll(".epyt-gallery-thumb").forEach(el => {
     $('#title-news-button').text('Ver más'+id+'..');   
     });
 });
+
 
 $('#news').hide();
 
