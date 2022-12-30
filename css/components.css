@@ -576,3 +576,44 @@ background-color: #010101;
 .img_search{
   width: 20px;
 }
+
+
+.leadership-title{
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  color: #1B1A1A;
+  text-transform: uppercase;
+  margin: 10px 10px 100px 10px;
+  text-align: center;
+
+}
+
+.leadership-title1{
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  color: #1B1A1A;
+  text-transform: uppercase;
+  margin: 10px 10px 100px 10px;
+  text-align: center;
+
+}
+
+.leadership-p{
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+color: #1B1A1A;
+}
+
+.bemedia-title{
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 90px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #1B1A1A;
+  margin-bottom: 50px;
+}

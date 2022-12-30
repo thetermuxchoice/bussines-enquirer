@@ -379,6 +379,7 @@ body .epyt-gallery-img-gdpr{
     height:auto;
     /*cursor:pointer;*/
     border-radius:30px;
+    height: 100%;
 }
 
 .epyt-facade button.epyt-facade-play{
@@ -699,11 +700,22 @@ body .epyt-gallery-img-gdpr{
 
 .epyt-gallery-title-d-p{
     font-weight: 700;
-    font-size: 43px;
-    line-height: 52px;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+    text-transform: uppercase;
     color: #FFFFFF;
-    text-align: left;
-    margin-top: 20px;
+}
+
+.title-empower{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .epyt-gallery-title-d-p-det{
@@ -744,7 +756,8 @@ body .epyt-gallery-img-gdpr{
 .nav-menu {
 	position:relative;
 	width:35%;
-	margin:0 auto;
+	/*margin:0 auto;*/
+    margin-left: 70px;
 }
 
 #cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile {
@@ -791,7 +804,7 @@ body .epyt-gallery-img-gdpr{
     font-size: 17px;
     line-height: 18px;
     text-align: center;
-    color: #FFFFFF;
+    color: #c6a12d;;
     text-decoration:none;
 }
 
@@ -1166,4 +1179,61 @@ body .epyt-gallery-img-gdpr{
 /* fin menu interno*/
 .menu-articles{
     text-align: center;
+    margin-top: 30px;
 }
+.epty-gallery-detalle{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 400px) {
+    .epty-gallery-detalle{
+        height: 70vh;
+    }
+    .title-empower{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 450px) {
+    .epty-gallery-detalle{
+        height: 70vh;
+    }
+
+    .title-empower{
+        font-size: 50px;
+    }
+
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    
+    .epty-gallery-detalle{
+        height: 60vh;
+    }
+
+    .title-empower{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+    
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+}
+
+
