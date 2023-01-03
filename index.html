@@ -396,7 +396,10 @@
       </div>
       
       <nav class="navbar-menu">
-        <div style="width:50%; margin:20px;"><button type="button" style="background-color: #ffffff00"><img src="img/play.png" alt="x" style="width:30px;height: auto;"/></button></div>
+        <div style="width:50%; margin:20px;">
+          <button id="buttonp1" type="button" style="background-color: #ffffff00"><img src="img/icons8-audio-50.png" alt="x" style="width:30px;height: auto;"/></button>
+          <button id="buttonp2" type="button" style="background-color: #ffffff00"><img src="img/icons8-no-audio-48.png" alt="x" style="width:30px;height: auto;"/></button>
+        </div>
         <a fs-mirrorclick-element="target" data-w-id="6c1d551c-c353-1ae2-42f6-84ae81cfa6f1" href="#"
           class="nav-menu-link w-inline-block">
           <div class="menu-top-overflow">
@@ -3890,13 +3893,32 @@
 
 
 
+    $("#buttonp2").hide();
 
-
-    document.querySelector('button').addEventListener('click', () => {
+    document.querySelector('#buttonp1').addEventListener('click', () => {
       //alert('entro');
-      if( $("#video-home").prop('muted', true) ){
+      /*if( $("#video-home").prop('muted', true) ){
         $("#video-home").prop('muted', false);
       }else{
+        $("#video-home").prop('muted', true);
+      }*/
+      if( $("#video-home").prop('muted', true) ){
+        $("#buttonp1").hide();
+        $("#buttonp2").show();
+        $("#video-home").prop('muted', false);
+      }
+    });
+
+    document.querySelector('#buttonp2').addEventListener('click', () => {
+      //alert('entro');
+      /*if( $("#video-home").prop('muted', true) ){
+        $("#video-home").prop('muted', false);
+      }else{
+        $("#video-home").prop('muted', true);
+      }*/
+      if( $("#video-home").prop('muted', false) ){
+        $("#buttonp1").show();
+        $("#buttonp2").hide();
         $("#video-home").prop('muted', true);
       }
     });
