@@ -269,10 +269,6 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("../../../img/be-media/banner_bm_p.png");
-  background-position: 50% 50%;
-  background-size: cover;
-
 }
 
 
@@ -429,7 +425,7 @@ figcaption {
   align-items: center;
   /*background-image: url("../6151bc24fc1faf04de3433e1_3.jpg");*/
   /*background-image: url("../../../img/be-media/banner_sm_s4.png");*/
-  background: #47474700;
+  background: #47474753;
   opacity: 1;
   -webkit-transition-property: none;
   transition-property: none;
@@ -3998,7 +3994,7 @@ font-family : Helveticanowtext, sans-serif;
   }
 
   .image-crew {
-    height: 100vh;
+    height: 60vh;
   }
 
   .main-heading.chef {
@@ -4192,7 +4188,6 @@ font-family : Helveticanowtext, sans-serif;
     justify-content: flex-start;
     font-size: 18px;
     line-height: 1.2;
-    flex-direction: column;
   }
 
   .overflow.flex {
@@ -4697,8 +4692,7 @@ font-family : Helveticanowtext, sans-serif;
 
   .scale-wrap {
     width: 100%;
-    /*height: auto;*/
-    height: 500px;
+    height: auto;
     padding: 70px 40px;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -4712,15 +4706,6 @@ font-family : Helveticanowtext, sans-serif;
 
   .main-heading.about {
     font-size: 44px;
-  }
-
-  .bemedia-title1{
-    position: static;
-    top: 44px;
-    font-size: 75px ! important;
-    line-height: 1 !important;
-    margin-top: 0px! important;
-
   }
 
   .main-heading.black {
@@ -4804,9 +4789,9 @@ font-family : Helveticanowtext, sans-serif;
     margin-bottom: 40px;
   }
 
-  .size-hero {
-    height: 175vh;
-  }
+ /* .size-hero {
+    height: 170vh;
+  }*/
 
   .size-hero._404 {
     height: 100vh;
@@ -5503,7 +5488,7 @@ font-family : Helveticanowtext, sans-serif;
   }
 
   .size-hero {
-    height: 175vh;
+    height: 215vh;
   }
 
   .hero-wrao-text {
@@ -6514,8 +6499,6 @@ color: #1B1A1A;
     background: linear-gradient(180deg, rgba(198, 161, 45, 0.35) 0%, #C6A12D 100%);
     border-radius: 13px;
     /*margin: 10px;*/
-    width: 130px;
-    margin: 10px auto;
 }
 
 .figure-bemedia{
@@ -6584,7 +6567,6 @@ color: #1B1A1A;
   .bemedia-title {
     font-size: 65px !important;
     margin-left: 0px !important;
-    margin-top: 0px !important;
   }
 
   .paragraph-hero {
@@ -6592,8 +6574,23 @@ color: #1B1A1A;
     width: 100%;
   }
 
+  .size-hero {
+    height: 220vh;
+}
+}
+@media screen and (min-width: 550px) and (max-width: 585px) {
+
+  .size-hero {
+    height: 105vh;
+}
 }
 
+@media screen and (min-width: 586px) and (max-width: 800px) {
+
+  .size-hero {
+    height: 135vh;
+}
+}
 @media screen and (min-width: 550px) and (max-width: 768px) {
   .bemedia-title {
     font-size: 70px !important;
@@ -6612,66 +6609,4 @@ color: #1B1A1A;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1400px) {
-}
-
-
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .size-hero {
-    height: 105vh;
-}
-}
-
-
-@media screen and (min-width: 767px) and (max-width: 1070px) {
-  .row-resp {
-    width: 890px !important;
-    margin-left: -41px !important;
-  }
-
-  .bmedia-item-light {
-    width: 130px !important;
-  }
-  .figure-bemedia {
-    width: 130px;
-  }
-  
-}
-
-@media screen and (min-width: 767px) and (max-width: 1230px) {
-
-  .wrap-hero-video.hero {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 76%), rgba(0, 0, 0, 90%)), url(../../../img/be-media/banner_bm_p.png);
-    background-position: 80% 50%;
-  }
-
-  .background-image-effect {
-    background-image: linear-gradient(180deg, rgb(254 252 252 / 86%), rgb(253 252 252 / 27%)), url(../../../img/be-media/banner_bm_s1.png);
-    background-position: 80% 50%;
-  }
-  .image-move {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 76%), rgba(0, 0, 0, 90%)),url(../../../img/be-media/banner_bm_s2.png);
-    background-position: 80% 50%;
-  }
-  .image-move.second {
-    background-image: linear-gradient(180deg, rgb(254 252 252 / 86%), rgb(253 252 252 / 27%)),url(../../../img/be-media/banner_bm_s3.png);
-    background-position: 80% 99%;
-  }
-  .image-crew {
-    opacity: 0.2;
-  }
-}
-
-@media screen and (min-width: 990px) and (max-width: 1440px) {
-  .overflow.margin {
-    margin-bottom: -38px !important;
-}
-
-.sem {
-  margin-top: 320px !important;
-}
-
-.video {
-  margin-top: 440px !important;
-}
 }
