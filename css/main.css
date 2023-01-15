@@ -2190,6 +2190,12 @@ textarea.w-select {
 }
 
 @media screen and (max-width:479px) {
+  .content-wrap {
+    height: 1126px !important;
+  }
+  .be-club-section {
+    margin-bottom: 100px;
+  }
   .w-nav[data-collapse=tiny] .w-nav-menu {
     display: none
   }
@@ -13760,6 +13766,10 @@ margin-top: 0;
 
 @media screen and (max-width:767px) {
 
+  .content-wrap {
+    height: 1450 !important;
+  }
+
   .hero-wrap {
     padding-top   : 12rem;
     padding-bottom: 12.1rem
@@ -17896,7 +17906,7 @@ margin-top: 0;
 }
 
 .be-club-section  {
-  margin-top: -200px;
+  margin-top: 0px;
 }
 
 .be-club-title {
