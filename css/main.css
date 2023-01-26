@@ -18075,3 +18075,8 @@ width: 150px;
   height: 100%;
   z-index: -1;
 }
+
+.div-left{
+  text-align: left;
+  margin-left: 5px;
+}
