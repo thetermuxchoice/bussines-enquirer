@@ -702,7 +702,7 @@ body .epyt-gallery-img-gdpr{
     font-weight: 700;
     font-size: 70px;
     line-height: 85px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -755,9 +755,11 @@ body .epyt-gallery-img-gdpr{
 /* inicio menu interno*/
 .nav-menu {
 	position:relative;
-	width:35%;
+	width:100%;
 	/*margin:0 auto;*/
-    margin-left: 70px;
+    /*margin-left: 70px;*/
+    margin-left: 43px;
+
 }
 
 #cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile {
@@ -799,7 +801,8 @@ body .epyt-gallery-img-gdpr{
 	text-decoration:none;
 	color:#ddd;
 	font-weight:700;*/
-    padding:17px;
+    /*padding:17px;*/
+    padding:11px;
     font-weight: 500;
     font-size: 17px;
     line-height: 18px;
@@ -861,7 +864,8 @@ body .epyt-gallery-img-gdpr{
 
 #cssmenu ul ul {
 	position:absolute;
-	left:-9999px
+	left:-9999px;
+    z-index: 99;
 }
 
 #cssmenu ul ul li {
@@ -1187,6 +1191,8 @@ body .epyt-gallery-img-gdpr{
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 @media screen and (max-width: 400px) {
