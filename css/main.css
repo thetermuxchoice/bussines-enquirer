@@ -2363,7 +2363,7 @@ strong {
 }
 
 .main-wrapper {
-  background-color: #dadada
+  background-color: #fff;
 }
 
 .main-wrapper.is--dark {
@@ -8117,12 +8117,12 @@ margin-top: 0;
 .letter-top-7,
 .letter-top-8,
 .letter-top-9,
+.letter-top-10,
 .letter-top-11,
-.letter-top-12,
-.letter-top-13
+.letter-top-12
+.letter-top-13,
 .letter-top-14,
-.letter-top-15,
-.letter-top-16
+.letter-top-15
  {
   display: inline-block
 }
