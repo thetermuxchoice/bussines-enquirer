@@ -462,13 +462,13 @@
           </div>
         </div>
         <nav class="navbar-menu">
-          <a id="div-menu"
+          <a
             fs-mirrorclick-element="target"
             data-w-id="6c1d551c-c353-1ae2-42f6-84ae81cfa6f1"
             href="#"
             class="nav-menu-link w-inline-block"
             ><div class="menu-top-overflow">
-              <div class="nav-me-wrap">
+              <div  id="div-menu" class="nav-me-wrap">
                 <img
                   src="img/622255aa85a56d9dd6077c1b_ME_black.svg"
                   loading="eager"
@@ -483,7 +483,7 @@
                   style=""
                 />
               </div>
-              <div class="nav-me-wrap">
+              <div  id="div-back" class="nav-me-wrap">
                 <img
                   src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255a70950223fa26745a8_BA.svg"
                   loading="eager"
@@ -500,7 +500,7 @@
               </div>
             </div>
             <div class="menu-bot-overflow">
-              <div class="nav-nu-wrap">
+              <div  id="div-menu1" class="nav-nu-wrap">
                 <img
                   src="img/622255a98166d5d9ca2ec0b9_NU_black.svg"
                   loading="eager"
@@ -515,7 +515,7 @@
                   style=""
                 />
               </div>
-              <div class="nav-nu-wrap">
+              <div  id="div-back1" class="nav-nu-wrap">
                 <img
                   src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255a7095022ec686745a9_CK.svg"
                   loading="eager"
@@ -3092,6 +3092,21 @@
       $("#div-menu").on("click", function () {
         $("#logo-white").show();
         $("#logo-black").hide();
+      });
+
+      $("#div-back").on("click", function () {
+        $("#logo-white").hide();
+        $("#logo-black").show();
+      });
+
+      $("#div-menu1").on("click", function () {
+        $("#logo-white").show();
+        $("#logo-black").hide();
+      });
+
+      $("#div-back1").on("click", function () {
+        $("#logo-white").hide();
+        $("#logo-black").show();
       });
     </script>
     <script src="js/modules/aos.js"></script>

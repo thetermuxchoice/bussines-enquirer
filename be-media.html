@@ -443,11 +443,15 @@
           <a href="./" class="nav-logo-link w-inline-block"
             ><div class="nav-reform-wrap"></div>
             <div class="link-alt-text">Business Enquirer home</div>
-            <img
-              src="img/BusEnq-web-logo-white-V-SMALL.png"
+            <img id="logo-yellow"
+              src="img/logo_yellow.png"
               loading="lazy"
               alt="Reform digital's logomark inspired by a tangram puzzle"
           /></a>
+          <img id="logo-white" style="display:none"
+          src="img/BusEnq-web-logo-white-V-SMALL.png"
+          loading="lazy"
+          alt="Reform digital's logomark inspired by a tangram puzzle"/>
         </nav>
         <div id="move" class="scroll-bar-wrap">
           <div
@@ -469,22 +473,22 @@
             href="#"
             class="nav-menu-link w-inline-block"
             ><div class="menu-top-overflow">
-              <div class="nav-me-wrap">
+              <div  id="div-menu" class="nav-me-wrap">
                 <img
-                  src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255aa85a56d9dd6077c1b_ME.svg"
+                  src="img/622255aa85a56d9dd6077c1b_ME_yellow.svg"
                   loading="eager"
                   alt=""
                   class="nav-me-word"
                   style=""
                 /><img
-                  src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255aa85a56d9dd6077c1b_ME.svg"
+                  src="img/622255aa85a56d9dd6077c1b_ME_yellow.svg"
                   loading="lazy"
                   alt=""
                   class="nav-me-word is--2"
                   style=""
                 />
               </div>
-              <div class="nav-me-wrap">
+              <div id="div-back" class="nav-me-wrap">
                 <img
                   src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255a70950223fa26745a8_BA.svg"
                   loading="eager"
@@ -501,22 +505,22 @@
               </div>
             </div>
             <div class="menu-bot-overflow">
-              <div class="nav-nu-wrap">
+              <div  id="div-menu1" class="nav-nu-wrap">
                 <img
-                  src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255a98166d5d9ca2ec0b9_NU.svg"
+                  src="img/622255a98166d5d9ca2ec0b9_NU_yellow.svg"
                   loading="eager"
                   alt=""
                   class="nav-nu-word"
                   style=""
                 /><img
-                  src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255a98166d5d9ca2ec0b9_NU.svg"
+                  src="img/622255a98166d5d9ca2ec0b9_NU_yellow.svg"
                   loading="lazy"
                   alt=""
                   class="nav-nu-word is--2"
                   style=""
                 />
               </div>
-              <div class="nav-nu-wrap">
+              <div id="div-back1" class="nav-nu-wrap">
                 <img
                   src="https://assets.website-files.com/61700604b1b79e1cd9ef9412/622255a7095022ec686745a9_CK.svg"
                   loading="eager"
@@ -2251,7 +2255,7 @@
              <div class="stiky-image-backgrounf">
                 <div data-w-id="620fa36a-39ee-5e95-1a9d-00c0b58f1342" class="scale-wrap">
                    <div class="background-image-effect absolute"></div>
-                   <div data-w-id="53728aa2-786b-a442-0af2-a7196e4d97a5" class="background-image-effect"></div>
+                   <div data-w-id="53728aa2-786b-a442-0af2-a7196e4d97a5" class="background-image-effect" style="width: 85vw;"></div>
                    <div class="wrap-text">
                       <div class="roe-text">
                          <div class="overflow margin" style="margin-bottom: 170px;">
@@ -3461,8 +3465,31 @@
 
     <script src="js/main1.js" type="text/javascript"></script>
     <script>
+      
+      $("#logo-white").hide();
+      $("#logo-yellow").show();
+        
+      $("#div-menu").on("click", function () {
+        $("#logo-white").show();
+        $("#logo-yellow").hide();
+      });
 
-       $(document).ready(function() {
+      $("#div-back").on("click", function () {
+        $("#logo-white").hide();
+        $("#logo-yellow").show();
+      });
+
+      $("#div-menu1").on("click", function () {
+        $("#logo-white").show();
+        $("#logo-yellow").hide();
+      });
+
+      $("#div-back1").on("click", function () {
+        $("#logo-white").hide();
+        $("#logo-yellow").show();
+      });
+
+      $(document).ready(function() {
           // Swiper: Slider
           new Swiper('.swiper-container', {
              loop: true,
@@ -3516,22 +3543,8 @@
           });
        });
 
-     
-       
-     </script>
-
-    <!--<script>
-      $.ajax({
-          type: "POST",
-          url: "https://luxury-rugelach-00a1a1.netlify.app/be-media/index.html",
-          success: function(e) {
-              $("#div-bemedia").html(e);
-          
-  
-          }
-      });
-    </script>-->
     
+     </script>   
       <style>
       .nav-menu-link {
         cursor: pointer;
@@ -4090,6 +4103,8 @@
         $(".up-link").click();
       });
     </script>
+
+    
     <script src="js/modules/aos.js"></script>
     <script>
       AOS.init();
