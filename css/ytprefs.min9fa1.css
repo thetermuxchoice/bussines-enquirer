@@ -534,7 +534,8 @@ body .epyt-gallery-img-gdpr{
     margin-top: 50px; 
     background: #191919; 
     padding-bottom: 50px; 
-    padding-top: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .field{
