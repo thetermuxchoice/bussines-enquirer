@@ -2399,7 +2399,7 @@ strong {
   perspective               : 40em;
   -webkit-perspective-origin: 50% 0%;
   perspective-origin        : 50% 0%;
-  font-size                 : 12.62em;
+  font-size                 : 10.62em;
   line-height               : .8;
   font-weight               : 300;
   letter-spacing            : -.07em;
@@ -3198,14 +3198,14 @@ strong {
   z-index       : 1;
   margin-top    : -10em;
   padding-bottom: 20em;
-  color         : #dadada
+  /*color         : #dadada*/
 }
 
 .oval-dark {
   width           : 100%;
   height          : 47.02em;
   border-radius   : 50%;
-  background-color: #252525
+  background-color: #fff;
 }
 
 .oval-wrapper {
@@ -3670,7 +3670,7 @@ strong {
   right           : 0;
   bottom          : 0;
   z-index         : 1;
-  background-color: #dadada
+  background-color: #252525;
 }
 
 .bg-light.is--no-oval {
@@ -3684,7 +3684,7 @@ strong {
   width           : 100%;
   height          : 47.02em;
   border-radius   : 50%;
-  background-color: #dadada
+  background-color: #fff;
 }
 
 .content-wrap {
@@ -3975,7 +3975,7 @@ margin-top: 0;
   -ms-flex-pack          : center;
   justify-content        : center;
   border-radius          : 50%;
-  background-color       : #dadada
+  background-color       : #fff;
 }
 
 .large-circle-dark2 {
@@ -10038,7 +10038,7 @@ margin-top: 0;
   -webkit-flex    : 0 0 auto;
   -ms-flex        : 0 0 auto;
   flex            : 0 0 auto;
-  color           : #fff;
+  color           : #c6a12d;
   font-size       : 32.9em;
   font-weight     : 300;
   letter-spacing  : -.1em;
@@ -10051,7 +10051,7 @@ margin-top: 0;
   width         : 100%;
   padding-right : 3.1em;
   text-align    : center;
-  mix-blend-mode: difference
+  /*mix-blend-mode: difference*/
 }
 
 .section-contact-hero {
@@ -10060,7 +10060,7 @@ margin-top: 0;
   overflow        : hidden;
   padding-bottom  : 20em;
   background-color: #252525;
-  color           : #dadada
+  color           : #fff;
 }
 
 .container-small {
@@ -10747,7 +10747,7 @@ margin-top: 0;
   -webkit-justify-content: center;
   -ms-flex-pack          : center;
   justify-content        : center;
-  background-color       : #dadada
+  background-color       : #fff;
 }
 
 .contact-details-wrap {
