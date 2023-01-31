@@ -18096,6 +18096,20 @@ width: 150px;
 
 }
 
+.h1-cookies{
+  text-align: left;
+  font-size: 2.2rem;
+  line-height: 2.5;
+
+}
+
+.h2-cookies{
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 2.5;
+
+}
+
 .policy-info {
   width: 85%;
   font-size: 1.5rem;
