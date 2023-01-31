@@ -18081,10 +18081,31 @@ width: 150px;
   width: 100%;
   height: 84%;
   top: -8%;
-  /* left: 50%;
+  /* left: 50%;*/
 }
 
 .div-left{
   text-align: left;
   margin-left: 5px;
+}
+
+.h1-policy{
+  text-align: left;
+  font-size: 2rem;
+  line-height: 2.5;
+
+}
+
+.policy-info {
+  width: 85%;
+  font-size: 1.5rem;
+  text-align: center;
+  border: solid red;
+  margin: 0 auto;
+}
+
+.policy-p{
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 2.2rem;
 }
