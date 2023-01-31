@@ -4503,8 +4503,8 @@ margin-top: 0;
   height          : 6.7em;
   border-radius   : 100vw;
   background-color: #b9b9b9;
-  -webkit-filter  : blur(0.4em);
-  filter          : blur(.4em)
+ /* -webkit-filter  : blur(0.4em);
+  filter          : blur(.4em)*/
 }
 
 .blurred-oval.is--2 {
@@ -4516,8 +4516,8 @@ margin-top: 0;
   height          : 6.7em;
   border-radius   : 100vw;
   background-color: #b9b9b9;
-  -webkit-filter  : blur(0.4em);
-  filter          : blur(.4em)
+  /*-webkit-filter  : blur(0.4em);
+  filter          : blur(.4em)*/
 }
 
 .overflow-hidden {
@@ -5741,7 +5741,7 @@ margin-top: 0;
   display                : -webkit-flex;
   display                : -ms-flexbox;
   display                : flex;
-  height                 : 100vh;
+  height                 : 91vh;
   padding-top            : 3.4rem;
   -webkit-box-orient     : vertical;
   -webkit-box-direction  : normal;
@@ -10059,8 +10059,8 @@ margin-top: 0;
   z-index         : 2;
   overflow        : hidden;
   padding-bottom  : 20em;
-  background-color: #252525;
-  color           : #fff;
+  background-color: #fff;
+  color           : #000;
 }
 
 .container-small {
@@ -18091,7 +18091,7 @@ width: 150px;
 
 .h1-policy{
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2.5;
 
 }
@@ -18100,7 +18100,6 @@ width: 150px;
   width: 85%;
   font-size: 1.5rem;
   text-align: center;
-  border: solid red;
   margin: 0 auto;
 }
 
