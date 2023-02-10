@@ -3196,7 +3196,7 @@ strong {
 .section-ordinary {
   position      : relative;
   z-index       : 1;
-  margin-top    : -10em;
+  margin-top    : -13em;
   padding-bottom: 20em;
   /*color         : #dadada*/
 }
