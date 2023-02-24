@@ -67,13 +67,13 @@
 .about-info iframe {
   margin-top: 50px;
   width: 80%;
-  height: 500px;
+  height: 90%;
   margin-bottom: 50px;
 }
 
 @media (max-width: 700px){
   .about-info iframe {
-    height: 300px;
+    height: 50%;
   }
 }
 
