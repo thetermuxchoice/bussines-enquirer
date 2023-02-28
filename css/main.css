@@ -18299,12 +18299,18 @@ width: 150px;
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 478px) {
   .section-contact-details {
-    /*height: 520px !important;*/
+    height: 800px !important;
   }
 
 
+}
+
+@media screen and (min-width: 479px) and (max-width: 767px) {  
+  .section-contact-details {
+    height: 510px !important;
+  }
 }
 
 @media screen and (max-width: 900px) {
