@@ -12876,7 +12876,7 @@ margin-top: 0;
   .footer {
     position  : relative;
     display   : block;
-    margin-top: -77.5em
+    margin-top: -71.5em
   }
 
 
@@ -18283,6 +18283,7 @@ width: 150px;
 
   .section-home-featured {
     height: 0px;
+    background-color: #f8f9fa00;
   }
 
   .footer-freeze-wrap{
@@ -18292,14 +18293,22 @@ width: 150px;
 
 
   .epyt-gallery-title-d-p-det {
-    margin-top: 157px !important;
+    margin-top: 302px !important;
   }
 
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .section-contact-details {
     height: 520px !important;
+  }
+
+
+}
+
+@media screen and (max-width: 900px) {
+  .pset {
+    padding-bottom: 238px !important;
   }
 }

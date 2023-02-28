@@ -616,3 +616,13 @@ body .epyt-gallery-img-gdpr{
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+
+
+
+@media screen and (max-width: 1000px) {
+.epyt-gallery iframe {
+    width: 100% !important;
+}
+
+}
