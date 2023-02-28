@@ -866,7 +866,7 @@ textarea.w-select {
 @media screen and (max-width:991px) {
 
   .content-wrap {
-    margin-top: -30px;
+    margin-top: -15px;
   }
 
   .w-container {
@@ -12505,8 +12505,8 @@ margin-top: 0;
   }
 
   .section-home-hero {
-    margin-bottom : 8em;
-    padding-bottom: 10em
+    margin-bottom : 0em;
+    padding-bottom: 10em;
   }
 
   .hero-text.is--contact {
@@ -12625,7 +12625,7 @@ margin-top: 0;
   }
 
   .section-ordinary {
-    margin-top: 0
+    margin-top: -154px;
   }
 
   .bg-wrapper.is--docs {
@@ -12876,7 +12876,7 @@ margin-top: 0;
   .footer {
     position  : relative;
     display   : block;
-    margin-top: -77.5em
+    margin-top: -14.5em
   }
 
 
@@ -13837,6 +13837,7 @@ margin-top: 0;
 
   .content-wrap {
     height: 1250 !important;
+    margin-top: -31px;
   }
 
   .hero-wrap {
@@ -13967,7 +13968,7 @@ margin-top: 0;
 
   .section-ordinary {
     padding-top   : 1rem;
-    padding-bottom: 10rem
+    padding-bottom: 10rem;
   }
 
   .large-p-wrap {
@@ -17034,7 +17035,7 @@ margin-top: 0;
 
   .section-contact-details1 {
     min-height: 100vh;
-    margin-top: -350px
+    margin-top: -370px
   }
 
   .contact-details-wrap {
@@ -18281,9 +18282,9 @@ width: 150px;
 
 @media screen and (max-width: 900px) {
 
-  .section-home-featured {
+  /*.section-home-featured {
     height: 0px;
-  }
+  }*/
 
   .footer-freeze-wrap{
     background-color: #f8f9fa00;
@@ -18302,4 +18303,11 @@ width: 150px;
   .section-contact-details {
     height: 520px !important;
   }
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+
 }
