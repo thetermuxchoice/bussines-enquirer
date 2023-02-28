@@ -18301,7 +18301,7 @@ width: 150px;
 
 @media screen and (max-width: 767px) {
   .section-contact-details {
-    height: 520px !important;
+    /*height: 520px !important;*/
   }
 
 

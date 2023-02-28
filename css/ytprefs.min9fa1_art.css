@@ -1197,7 +1197,7 @@ body .epyt-gallery-img-gdpr{
 
 @media screen and (max-width: 400px) {
     .epty-gallery-detalle{
-        height: 70vh;
+        height: 85vh;
     }
     .title-empower{
         font-size: 50px;
@@ -1210,7 +1210,7 @@ body .epyt-gallery-img-gdpr{
 
 @media screen and (min-width: 401px) and (max-width: 450px) {
     .epty-gallery-detalle{
-        height: 70vh;
+        height: 85vh;
     }
 
     .title-empower{
@@ -1228,7 +1228,7 @@ body .epyt-gallery-img-gdpr{
 @media screen and (min-width: 450px) and (max-width: 550px) {
     
     .epty-gallery-detalle{
-        height: 60vh;
+        height: 70vh;
     }
 
     .title-empower{
